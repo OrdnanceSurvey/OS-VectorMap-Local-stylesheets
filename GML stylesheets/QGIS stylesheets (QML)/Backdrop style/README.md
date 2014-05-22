@@ -22,13 +22,13 @@ These are QML files for OS VectorMap Local in GZ/GML format for use in QGIS.
 
 **6.**  Although every feature is styled, for use as a contextual map we recommend the following layer order and visibility:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/GML%20stylesheets/QGIS%20stylesheets%20(QML)/Backdrop%20style/images/VML_layer_order.PNG "Recommended layer order for OS VectorMap Local")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/QGIS%20stylesheets%20%28QML%29/Backdrop%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
 
 We recommend viewing the map between **1:2,500** and **1:10,000** for maximum legibility
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/GML%20stylesheets/QGIS%20stylesheets%20(QML)/Backdrop%20style/images/VML_BD_screenshot.PNG "Screenshot of OS VectorMap Local")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/QGIS%20stylesheets%20%28QML%29/Backdrop%20style/images/VML_BD_Screenshot.png "Screenshot of OS VectorMap Local")
 
 ## Additional information
 
