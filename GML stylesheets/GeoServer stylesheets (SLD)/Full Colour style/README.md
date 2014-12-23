@@ -1,4 +1,4 @@
-# OS VectorMap Full Colour style
+# OS VectorMap Local Full Colour style
 
 These are SLD files for OS VectorMap Local in GZ/GML format for use in GeoServer.
 
