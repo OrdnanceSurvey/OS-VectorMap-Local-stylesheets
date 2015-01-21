@@ -329,7 +329,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">7000</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
@@ -380,7 +380,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">3500</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
@@ -431,7 +431,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">3500</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
@@ -482,7 +482,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">3500</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
@@ -533,7 +533,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">3500</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
@@ -594,7 +594,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">3500</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
@@ -655,7 +655,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">10000</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
@@ -716,7 +716,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">7000</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
@@ -774,7 +774,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">7000</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
         <Rule>
@@ -830,7 +830,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxAngleDelta">45</VendorOption>
             <VendorOption name="maxDisplacement">525</VendorOption>
             <VendorOption name="repeat">7000</VendorOption>
-            <VendorOption name="forceLeftToRigth">true</VendorOption>
+            <VendorOption name="forceLeftToRight">true</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
