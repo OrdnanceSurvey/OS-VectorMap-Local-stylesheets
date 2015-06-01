@@ -22,7 +22,7 @@ These are LYR files for OS VectorMap Local in ESRI Shapefile format for use in E
 
 **7.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VML_layer_order.PNG "Recommended layer order for OS VectorMap Local")
 
 **8.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap Local data > select the data that matches the layer, for example for Text select XXXXXX_Text.shp (XXXXXX being the tile name) > select ‘Add’
 
@@ -34,11 +34,11 @@ Repeat step 8 for all layers.
 
 **11.**  Check the box in the top-left corner and fill in the levels as per the following image:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/Road_symbol_levels.png "Advanced symbol levels for RoadCLine")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/Road_symbol_levels.PNG "Advanced symbol levels for RoadCLine")
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VML_BD_screenshot.png "Screenshot of OS VectorMap Local at 1:5,000 scale")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VML_BD_screenshot.PNG "Screenshot of OS VectorMap Local at 1:5,000 scale")
 
 We recommend viewing the map between **1:2,500** and **1:10,000** for maximum legibility
 
