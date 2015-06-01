@@ -1,18 +1,32 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.4.0-Chugiak" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.8.1-Wien" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+  <edittypes>
+    <edittype widgetv2type="TextEdit" name="fid">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="featureCode">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="featureDescription">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="orientation">
+      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+    </edittype>
+  </edittypes>
   <renderer-v2 attr="featureCode" symbollevels="0" type="categorizedSymbol">
     <categories>
-      <category symbol="0" value="15104" label="Pylon"/>
-      <category symbol="1" value="15110" label="Point feature1"/>
-      <category symbol="2" value="15111" label="Point feature2"/>
-      <category symbol="3" value="15120" label="Antiquity site"/>
-      <category symbol="4" value="15405" label="Spot height position"/>
-      <category symbol="5" value="15406" label="Air height position"/>
-      <category symbol="6" value="15408" label="Triangulation station"/>
-      <category symbol="7" value="15606" label="Point feature water1"/>
-      <category symbol="8" value="15607" label="Point feature water2"/>
-      <category symbol="9" value="15610" label="Standard flow arrow"/>
-      <category symbol="10" value="15611" label="Large flow arrow"/>
+      <category render="true" symbol="0" value="15104" label="Pylon"/>
+      <category render="true" symbol="1" value="15110" label="Point feature1"/>
+      <category render="true" symbol="2" value="15111" label="Point feature2"/>
+      <category render="true" symbol="3" value="15120" label="Antiquity site"/>
+      <category render="true" symbol="4" value="15405" label="Spot height position"/>
+      <category render="true" symbol="5" value="15406" label="Air height position"/>
+      <category render="true" symbol="6" value="15408" label="Triangulation station"/>
+      <category render="true" symbol="7" value="15606" label="Point feature water1"/>
+      <category render="true" symbol="8" value="15607" label="Point feature water2"/>
+      <category render="true" symbol="9" value="15610" label="Standard flow arrow"/>
+      <category render="true" symbol="10" value="15611" label="Large flow arrow"/>
     </categories>
     <symbols>
       <symbol alpha="1" type="marker" name="0">
@@ -35,12 +49,12 @@
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
-          <prop k="color_border" v="252,252,250,179"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="252,252,250,179"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.47"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -72,12 +86,12 @@
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="252,252,250,0"/>
-          <prop k="color_border" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.94"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -109,12 +123,12 @@
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="157,113,51,255"/>
-          <prop k="color_border" v="252,252,250,179"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="252,252,250,179"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.47"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -130,12 +144,12 @@
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="157,113,51,255"/>
-          <prop k="color_border" v="252,252,250,179"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="252,252,250,179"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.47"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -167,12 +181,12 @@
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="0,154,207,255"/>
-          <prop k="color_border" v="252,252,250,179"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="252,252,250,179"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.47"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -188,12 +202,12 @@
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="252,252,250,0"/>
-          <prop k="color_border" v="0,154,207,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,154,207,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.94"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -227,12 +241,12 @@
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="208,245,39,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -245,7 +259,7 @@
         </layer>
       </symbol>
     </source-symbol>
-    <rotation field="360 - orientation / 10 + 270"/>
+    <rotation field="360 - orientation/10 + 270"/>
     <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
@@ -416,14 +430,8 @@
     <multilineenabled fieldname="" on=""/>
     <selectedonly on=""/>
   </labelattributes>
-  <edittypes>
-    <edittype labelontop="0" editable="1" name="fid"/>
-    <edittype labelontop="0" editable="1" name="featureCode"/>
-    <edittype labelontop="0" editable="1" name="featureDescription"/>
-    <edittype labelontop="0" editable="1" name="orientation"/>
-  </edittypes>
   <editform>../VML_QML</editform>
-  <editforminit></editforminit>
+  <editforminit/>
   <featformsuppress>0</featformsuppress>
   <annotationform>../VML_QML</annotationform>
   <editorlayout>generatedlayout</editorlayout>

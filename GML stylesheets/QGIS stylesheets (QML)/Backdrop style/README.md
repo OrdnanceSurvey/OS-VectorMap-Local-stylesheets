@@ -1,8 +1,8 @@
 # OS VectorMap Local Backdrop style
 
-These are QML files for OS VectorMap Local in GZ/GML format for use in QGIS.
+These are QML files for OS VectorMap Local in GML/GZ format for use in QGIS.
 
-*They have been designed to work with the data as it is supplied.*
+*They have been designed to work with the data as supplied.*
 
 ## Quick start guide
 
@@ -14,21 +14,26 @@ These are QML files for OS VectorMap Local in GZ/GML format for use in QGIS.
 
 *Your machine may require a restart for QGIS to recognise the new font and SVGs*
 
-**4.**  Load your OS VectorMap Local GZ/GML data into QGIS
+**4.**  Load your OS VectorMap Local SHP data into QGIS
 
 **5.**  Double click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the QML file that corresponds to that layer > click 'Open' > click 'OK'
 
 *Repeat step 5 for all layers*
 
-**6.**  Although every feature is styled, for use as a contextual map we recommend the following layer order and visibility:
+**6.**  Your Layers window should now look like below. This is the recommended layer order.
 
   ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/QGIS%20stylesheets%20%28QML%29/Backdrop%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
-
-We recommend viewing the map between **1:2,500** and **1:10,000** for maximum legibility
 
 Your map should now look similar to this: 
 
   ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/QGIS%20stylesheets%20%28QML%29/Backdrop%20style/images/VML_BD_Screenshot.png "Screenshot of OS VectorMap Local")
+
+We recommend viewing the map between **1:2,500** and **1:10,000** for maximum legibility
+
+
+## Compatibility notes
+
+Our QML files are compatible with the latest versions of QGIS.
 
 ## Additional information
 
