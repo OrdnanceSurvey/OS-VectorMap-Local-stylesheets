@@ -2,7 +2,7 @@
 
 These are QML files for OS VectorMap Local in SHP format for use in QGIS.
 
-*They have been designed to work with the data as output by the official OS VectorMap Local (VML) Translator.*
+*They have been designed to work with the data as output by the official [OS VectorMap Local (VML) Translator](https://github.com/OrdnanceSurvey/OS-VML-Translator).*
 
 ## Quick start guide
 

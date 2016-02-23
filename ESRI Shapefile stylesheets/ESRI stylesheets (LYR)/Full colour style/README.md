@@ -2,7 +2,7 @@
 
 These are LYR files for OS VectorMap Local in ESRI Shapefile format for use in ESRI ArcGIS.
 
-*They have been designed to work with the data as output by the official OS VectorMap Local (VML) Translator.*
+*They have been designed to work with the data as output by the official [OS VectorMap Local (VML) Translator](https://github.com/OrdnanceSurvey/OS-VML-Translator).*
 
 ## Quick start guide
 
@@ -36,7 +36,7 @@ Repeat step 7 for all layers.
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Full%20colour%20style/images/VML_FC_screenshot.png "Screenshot of OS VectorMap Local at 1:5,000 scale")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Full%20Colour%20style/images/VML_FC_screenshot.png "Screenshot of OS VectorMap Local at 1:5,000 scale")
 
 We recommend viewing the map between **1:2,500** and **1:10,000** for maximum legibility
 

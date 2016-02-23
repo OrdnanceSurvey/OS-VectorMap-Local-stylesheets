@@ -2,7 +2,7 @@
 
 These are LYR files for OS VectorMap Local in ESRI Shapefile format for use in ESRI ArcGIS.
 
-*They have been designed to work with the data as output by the official OS VectorMap Local (VML) Translator.*
+*They have been designed to work with the data as output by the official [OS VectorMap Local (VML) Translator](https://github.com/OrdnanceSurvey/OS-VML-Translator).*
 
 ## Quick start guide
 

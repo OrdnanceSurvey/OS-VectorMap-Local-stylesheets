@@ -26,7 +26,7 @@ The scale denominators have been set to allow viewing between **1:1,000** and **
 
 Your map should look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VML_BD_Screenshot.png "Screenshot of OS VectorMap Local")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VML_FC_Screenshot.png "Screenshot of OS VectorMap Local")
 
 ##Compatibility notes
 

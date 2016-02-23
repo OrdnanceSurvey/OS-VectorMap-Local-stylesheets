@@ -2,7 +2,7 @@
 
 These are QML files for OS VectorMap Local in SHP format for use in QGIS.
 
-*They have been designed to work with the data as output by the official OS VectorMap Local (VML) Translator.*
+*They have been designed to work with the data as output by the official [OS VectorMap Local (VML) Translator](https://github.com/OrdnanceSurvey/OS-VML-Translator).*
 
 ## Quick start guide
 
@@ -22,11 +22,11 @@ These are QML files for OS VectorMap Local in SHP format for use in QGIS.
 
 **6.**  Your Layers window should now look like below. This is the recommended layer order.
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20%28QML%29/Full%20colour%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20%28QML%29/Full%20Colour%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20%28QML%29/Full%20colour%20style/images/VML_FC_Screenshot.png "Screenshot of OS VectorMap Local")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20%28QML%29/Full%20Colour%20style/images/VML_FC_Screenshot.png "Screenshot of OS VectorMap Local")
 
 We recommend viewing the map between **1:2,500** and **1:10,000** for maximum legibility
 
