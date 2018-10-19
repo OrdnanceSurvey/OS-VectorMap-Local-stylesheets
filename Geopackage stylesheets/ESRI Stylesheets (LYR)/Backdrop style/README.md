@@ -26,11 +26,13 @@ These are LYR files for OS VectorMap Local in Geopackage format for use in ESRI 
 
 Repeat step 8 for all layers.
 
-**9.**  To improve draw order of roads, advanced symbol levels can be applied. Right–click on RoadCLine in the Table of Contents, select Properties… and then the Symbology tab
+**9.**  To correct the rotation of some text and point features a calculation needs to be run on the orientation column within the attribute table. Right-click on Text in the Table of Contents > select Open Attribute Table > right-click on the attribute column header 'orinetation' > select Field Calculator > in the bottom box add the expression [orientation] /10 > click OK. Repeat this for the VectorMapPoint layer.
 
-**10.**  Click on the Advanced dropdown and select Symbol Levels. Select Switch to Advanced View in the bottom-left of the new window
+**10.**  To improve draw order of roads, advanced symbol levels can be applied. Right–click on RoadCLine in the Table of Contents, select Properties… and then the Symbology tab
 
-**11.**  Check the box in the top-left corner.
+**11.**  Click on the Advanced dropdown and select Symbol Levels. Select Switch to Advanced View in the bottom-left of the new window
+
+**12.**  Check the box in the top-left corner.
 
 Your map should now look similar to this: 
 
