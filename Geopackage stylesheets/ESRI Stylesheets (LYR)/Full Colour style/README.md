@@ -1,8 +1,6 @@
 # OS VectorMap Local Full colour style
 
-These are LYR files for OS VectorMap Local in ESRI Shapefile format for use in ESRI ArcGIS.
-
-*They have been designed to work with the data as output by the official [OS VectorMap Local (VML) Translator](https://github.com/OrdnanceSurvey/OS-VML-Translator).*
+These are LYR files for OS VectorMap Local in Geopackage format for use in ESRI ArcGIS.
 
 ## Quick start guide
 
@@ -14,29 +12,31 @@ These are LYR files for OS VectorMap Local in ESRI Shapefile format for use in E
 
 **3.**  Open a new blank map in ArcMap
 
-**4.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format, stylesheet format and style preference
+**4.**  In the labelling toolbar, click on 'Use Maplex Label Engine' to turn on Maplex
 
-**5.**  Select the layer file and click ‘Add’
+**5.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format, stylesheet format and style preference
 
-**6.**  Your Table of Contents should now look like this. This is the recommended layer order: 
+**6.**  Select the layer file and click ‘Add’
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Full%20colour%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
+**7.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
-**7.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap Local data > select the data that matches the layer, for example for Text select XXXXXX_Text.shp (XXXXXX being the tile name) > select ‘Add’
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/Geopackage%20stylesheets/ESRI%20Stylesheets%20(LYR)/Full%20Colour%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
+  
+**8.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap Local data > select the Geopackage > select 'Add' > select your matching data layer > select ‘Add’
 
-Repeat step 7 for all layers.
+Repeat step 8 for all layers.
 
-**8.**  To improve draw order of roads, advanced symbol levels can be applied. Right–click on RoadCLine in the Table of Contents, select Properties… and then the Symbology tab
+**9.**  To correct the rotation of some text and point features a calculation needs to be run on the orientation column within the attribute table. Right-click on Text in the Table of Contents > select Open Attribute Table > right-click on the attribute column header 'orientation' > select Field Calculator > in the bottom box add the expression [orientation] /10 > click OK. Repeat this for the VectorMapPoint layer.
 
-**9.**  Click on the Advanced dropdown and select Symbol Levels. Select Switch to Advanced View in the bottom-left of the new window
+**10.**  To improve draw order of roads, advanced symbol levels can be applied. Right–click on RoadCLine in the Table of Contents, select Properties… and then the Symbology tab
 
-**10.**  Check the box in the top-left corner and fill in the levels as per the following image:
+**11.**  Click on the Advanced dropdown and select Symbol Levels. Select Switch to Advanced View in the bottom-left of the new window
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Full%20colour%20style/images/Road_symbol_levels.png "Advanced symbol levels for RoadCLine")
+**12.**  Check the box in the top-left corner.
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Full%20Colour%20style/images/VML_FC_screenshot.png "Screenshot of OS VectorMap Local at 1:5,000 scale")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/Geopackage%20stylesheets/ESRI%20Stylesheets%20(LYR)/Full%20Colour%20style/images/VML_FC_screenshot.png "Screenshot of OS VectorMap Local at 1:5,000 scale")
 
 We recommend viewing the map between **1:2,500** and **1:10,000** for maximum legibility
 
