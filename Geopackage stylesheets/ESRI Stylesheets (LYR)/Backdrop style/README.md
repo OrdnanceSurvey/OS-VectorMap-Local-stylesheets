@@ -34,7 +34,7 @@ Repeat step 8 for all layers.
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VML_BD_screenshot.png "Screenshot of OS VectorMap Local at 1:5,000 scale")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/Geopackage%20stylesheets/ESRI%20Stylesheets%20(LYR)/Backdrop%20style/images/VML_BD_screenshot.png "Screenshot of OS VectorMap Local at 1:5,000 scale")
 
 We recommend viewing the map between **1:2,500** and **1:10,000** for maximum legibility
 
