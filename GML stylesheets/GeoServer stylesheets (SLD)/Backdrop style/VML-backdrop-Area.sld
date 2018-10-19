@@ -5,8 +5,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; Local (Backdrop style) - Area</Name>
     <UserStyle>
-      <Title>Product SLD - December 2014</Title>
-      <Abstract>OS VectorMap&#174; Local. Ordnance Survey. &#169; Crown copyright and database rights 2014.</Abstract>
+      <Title>Product SLD - September 2018</Title>
+      <Abstract>OS VectorMap&#174; Local. Ordnance Survey. &#169; Crown copyright and database rights 2018.</Abstract>
       
       <!-- Land -->
 
@@ -1430,49 +1430,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>  
-        
-      <!-- Sand Pit (fill only) -->
-        
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Sand Pit - 1:7,561 to 1:15,000</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15450</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>7561</MinScaleDenominator>
-          <MaxScaleDenominator>15000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#FAFAEB</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>  
-        
-      <!-- Gravel Pit (fill only) -->
-        
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Gravel Pit - 1:7,561 to 1:15,000</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15451</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>7561</MinScaleDenominator>
-          <MaxScaleDenominator>15000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#F7F7F2</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>  
-        
+               
       <!-- Inland water polygon -->
         
       <FeatureTypeStyle>
@@ -1492,7 +1450,29 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Fill>
           </PolygonSymbolizer>
         </Rule>
+      </FeatureTypeStyle>
+
+<!-- Aqueduct -->
+        
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Inland water polygon</Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:Literal>15601</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MinScaleDenominator>1000</MinScaleDenominator>
+          <MaxScaleDenominator>15000</MaxScaleDenominator>       
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#E4F4F7</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
       </FeatureTypeStyle>  
+  
         
       <!-- Refuse or Slag Heap -->
         
@@ -1510,76 +1490,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#F2F0F1</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <ExternalGraphic>
-                    <OnlineResource xlink:type="simple" xlink:href="ordnance_survey/fillScree-bd.svg"/>
-                    <Format>image/svg+xml</Format>
-                  </ExternalGraphic>
-                  <Size>250</Size>
-                  <Rotation>0</Rotation>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>  
-
-      <!-- Sand Pit -->
-        
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Sand Pit - 1:1,000 to 1:7,561</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15450</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>7561</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#FAFAEB</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-          <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Fill>
-              <GraphicFill>
-                <Graphic>
-                  <ExternalGraphic>
-                    <OnlineResource xlink:type="simple" xlink:href="ordnance_survey/fillScree-bd.svg"/>
-                    <Format>image/svg+xml</Format>
-                  </ExternalGraphic>
-                  <Size>250</Size>
-                  <Rotation>0</Rotation>
-                </Graphic>
-              </GraphicFill>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>  
-        
-      <!-- Gravel Pit -->
-        
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Gravel Pit - 1:1,000 to 1:7,561</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15451</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>7561</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#F7F7F2</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1730,6 +1640,56 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="fill">#F2E6D4</CssParameter>
             </Fill>
           </PolygonSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+
+<!-- Railway bridge -->
+      
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Railway Bridge</Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:Literal>15303</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MinScaleDenominator>1000</MinScaleDenominator>
+          <MaxScaleDenominator>15000</MaxScaleDenominator>       
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FFFFFF</CssParameter>
+            </Fill>
+ <Stroke>
+              <CssParameter name="stroke">#919191</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>     
+        </Rule>
+      </FeatureTypeStyle>
+
+<!-- Footbridge -->
+      
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Footbridge</Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:Literal>15304</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MinScaleDenominator>1000</MinScaleDenominator>
+          <MaxScaleDenominator>15000</MaxScaleDenominator>       
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FFFFFF</CssParameter>
+            </Fill>
+ <Stroke>
+              <CssParameter name="stroke">#969696</CssParameter>
+              <CssParameter name="stroke-width">0.5</CssParameter>
+            </Stroke>
+          </PolygonSymbolizer>     
         </Rule>
       </FeatureTypeStyle>
       

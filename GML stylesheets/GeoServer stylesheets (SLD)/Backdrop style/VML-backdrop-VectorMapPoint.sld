@@ -5,8 +5,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; Local (Backdrop style) - VectorMapPoint</Name>
     <UserStyle>
-      <Title>Product SLD - December 2014</Title>
-      <Abstract>OS VectorMap&#174; Local. Ordnance Survey. &#169; Crown copyright and database rights 2014.</Abstract>
+      <Title>Product SLD - September 2018</Title>
+      <Abstract>OS VectorMap&#174; Local. Ordnance Survey. &#169; Crown copyright and database rights 2018.</Abstract>
       
       <FeatureTypeStyle>
         
@@ -202,18 +202,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         
         <Rule>
           <Name>Water Point feature</Name>
-          <ogc:Filter>
-            <ogc:Or>       
+          <ogc:Filter>      
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>featurecode</ogc:PropertyName>
                 <ogc:Literal>15606</ogc:Literal>
               </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
-                <ogc:Literal>15607</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>
-          </ogc:Filter>
+             </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -233,18 +227,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         
         <Rule>
           <Name>Point feature</Name>
-          <ogc:Filter>
-            <ogc:Or>       
+          <ogc:Filter>       
               <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>featurecode</ogc:PropertyName>
                 <ogc:Literal>15110</ogc:Literal>
               </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
-                <ogc:Literal>15111</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>
-          </ogc:Filter>
+            </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -259,6 +247,32 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Graphic>
           </PointSymbolizer>
         </Rule>  
+
+<!-- Boundary Point -->
+        
+        <Rule>
+          <Name>Boundary point</Name>
+          <ogc:Filter>       
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:Literal>15211</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Filter>
+          <MinScaleDenominator>1000</MinScaleDenominator>
+          <MaxScaleDenominator>10001</MaxScaleDenominator>
+          <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+            <Graphic>
+              <Mark>
+                <WellKnownName>circle</WellKnownName>
+                <Fill>
+                  <CssParameter name="fill">#717171</CssParameter>
+                </Fill>
+              </Mark>
+              <Size>4</Size>
+            </Graphic>
+          </PointSymbolizer>
+        </Rule>  
+
         
         <!-- Spot height position -->
         

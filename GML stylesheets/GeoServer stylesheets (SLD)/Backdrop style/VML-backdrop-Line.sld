@@ -5,8 +5,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; Local (Backdrop style) - Line</Name>
     <UserStyle>
-      <Title>Product SLD - December 2014</Title>
-      <Abstract>OS VectorMap&#174; Local. Ordnance Survey. &#169; Crown copyright and database rights 2014.</Abstract>
+      <Title>Product SLD - September 2018</Title>
+      <Abstract>OS VectorMap&#174; Local. Ordnance Survey. &#169; Crown copyright and database rights 2018.</Abstract>
 
       <FeatureTypeStyle>
 
@@ -121,7 +121,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
 
-      <!-- Vegetation or Landform Limit (Currently commented out to turn off) -->
+           <!-- Vegetation or Landform Limit (Currently commented out to turn off) -->
 <!--
         <Rule>
           <Name>Vegetation or Landform Limit - 1:1,000 to 1:10,001</Name>
@@ -453,26 +453,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
 
-      <!-- General road casing -->
-        
-        <Rule>
-          <Name>General road casing</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15700</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>15000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#787878</CssParameter>
-              <CssParameter name="stroke-width">0.05</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-
+      
       <!-- Top of large slopes -->
 
         <Rule>
@@ -526,84 +507,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicStroke>
               <CssParameter name="stroke-dasharray">19 2</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-
-      <!-- Narrow gauge railway -->
-        
-        <Rule>
-          <Name>Narrow gauge railway (line)</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15302</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>15000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#919191</CssParameter>
-              <CssParameter name="stroke-width">0.933</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Narrow gauge railway (bars)</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15302</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>15000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#919191</CssParameter>
-              <CssParameter name="stroke-width">11.28</CssParameter>
-              <CssParameter name="stroke-dasharray">1.495 45.1204</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-        
-      <!-- Single track railway or siding -->
-        
-        <Rule>
-          <Name>Single track railway or siding</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15301</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>15000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#919191</CssParameter>
-              <CssParameter name="stroke-width">1.233</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-        
-      <!-- Multi track railway -->
-        
-        <Rule>
-          <Name>Multi track railway</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15300</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>15000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#919191</CssParameter>
-              <CssParameter name="stroke-width">2.400</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -710,26 +613,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
 -->
-
-      <!-- Overhead building line -->
-        
-        <Rule>
-          <Name>Overhead building line</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
-              <ogc:Literal>15012</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>15000</MaxScaleDenominator>
-          <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Stroke>
-              <CssParameter name="stroke">#969696</CssParameter>
-              <CssParameter name="stroke-width">0.050</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
 
       <!-- Overhead Peck detail -->
         
@@ -897,7 +780,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
 -->
-
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

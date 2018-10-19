@@ -5,8 +5,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; Local (Backdrop style) - Text</Name>
     <UserStyle>
-      <Title>Product SLD - December 2014</Title>
-      <Abstract>OS VectorMap&#174; Local. Ordnance Survey. &#169; Crown copyright and database rights 2014.</Abstract>
+      <Title>Product SLD - September 2018</Title>
+      <Abstract>OS VectorMap&#174; Local. Ordnance Survey. &#169; Crown copyright and database rights 2018.</Abstract>
       
       <FeatureTypeStyle>
 
@@ -1994,75 +1994,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </TextSymbolizer>
         </Rule>
         
-        <!-- General road name -->
-
-        <Rule>
-          <Name>General road name</Name>
-          <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
-                <ogc:Literal>15701</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>11001</MaxScaleDenominator>
-         <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">
-                <ogc:Mul>
-                  <ogc:PropertyName>height</ogc:PropertyName>
-                  <ogc:Literal>1.25</ogc:Literal>
-                </ogc:Mul>
-              </CssParameter>
-              <CssParameter name="font-weight">normal</CssParameter>
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>
-                  <AnchorPointX>
-                    0.5
-                  </AnchorPointX>
-                  <AnchorPointY>
-                    0.5
-                  </AnchorPointY>
-                </AnchorPoint>
-                <Displacement>
-                  <DisplacementX>0</DisplacementX>
-                  <DisplacementY>-2</DisplacementY>
-                </Displacement>
-                <Rotation>-
-                  <ogc:Mul>
-                    <ogc:PropertyName>orientation</ogc:PropertyName>
-                    <ogc:Literal>0.1</ogc:Literal>
-                  </ogc:Mul>
-                </Rotation>
-              </PointPlacement>
-            </LabelPlacement>
-            <Halo>
-              <Radius>
-                <ogc:Mul>
-                  <ogc:PropertyName>height</ogc:PropertyName>
-                  <ogc:Literal>0.14</ogc:Literal>
-                </ogc:Mul>
-              </Radius>
-              <Fill>
-                <CssParameter name="fill">#FAF9F7</CssParameter>
-                <CssParameter name="fill-opacity">0.7</CssParameter>
-              </Fill>
-            </Halo>
-            <Fill>
-              <CssParameter name="fill">#737171</CssParameter>
-            </Fill>
-            <Priority>950</Priority>
-            <VendorOption name="spaceAround">-50</VendorOption>
-            <VendorOption name="maxDisplacement">3.1</VendorOption>                
-          </TextSymbolizer>
-        </Rule>
-
         <!-- Water name -->
         
         <Rule>
@@ -3472,8 +3403,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="maxDisplacement">7</VendorOption>
           </TextSymbolizer>
         </Rule>
-
-      </FeatureTypeStyle>
+       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
