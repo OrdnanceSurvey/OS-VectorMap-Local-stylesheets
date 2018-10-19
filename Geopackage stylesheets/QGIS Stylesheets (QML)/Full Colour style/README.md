@@ -1,6 +1,6 @@
 # OS VectorMap Local Full Colour style
 
-These are QML files for OS VectorMap Local in GML/GZ format for use in QGIS.
+These are QML files for OS VectorMap Local in Geopackage format for use in QGIS.
 
 *They have been designed to work with the data as supplied.*
 
