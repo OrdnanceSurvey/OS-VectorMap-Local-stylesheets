@@ -20,7 +20,9 @@ These are LYR files for OS VectorMap Local in Geopackage format for use in ESRI 
 
 **7.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Full%20colour%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/Geopackage%20stylesheets/ESRI%20Stylesheets%20(LYR)/Full%20Colour%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
+  
+  https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/Geopackage%20stylesheets/ESRI%20Stylesheets%20(LYR)/Full%20Colour%20style/images/VML_layer_order.png
 
 **8.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap Local data > select the Geopackage > select 'Add' > select your matching data layer > select ‘Add’
 
