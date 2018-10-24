@@ -16,7 +16,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Boundary text - 1:1,000 to 1:3,701</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15210</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -24,7 +24,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>3701</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -76,7 +76,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         <Name>Boundary text - 1:3,701 to 1:6,001</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15210</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -84,7 +84,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -136,7 +136,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Boundary text - 1:6,001 to 1:10,001</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15210</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -144,7 +144,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -201,11 +201,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15404</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15407</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -214,7 +214,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>3701</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -267,11 +267,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15404</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15407</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -280,7 +280,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -333,11 +333,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15404</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15407</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -346,7 +346,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -401,7 +401,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Standard contour label - 1:1,000 to 1:2,501</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15409</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -409,7 +409,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>2501</MaxScaleDenominator>
            <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -459,7 +459,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Index contour label - 1:1,000 to 1:2,501</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15403</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -468,7 +468,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>2501</MaxScaleDenominator>
            <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -519,11 +519,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15403</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15409</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -532,7 +532,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>3701</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -588,11 +588,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15121</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15122</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -601,7 +601,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>3701</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Times New Roman</CssParameter>
@@ -655,11 +655,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15121</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15122</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -668,7 +668,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Times New Roman</CssParameter>
@@ -722,11 +722,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15121</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15122</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:Or>
@@ -735,7 +735,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Times New Roman</CssParameter>
@@ -792,7 +792,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -805,7 +805,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
            <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -856,7 +856,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -869,7 +869,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
            <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -925,7 +925,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -942,7 +942,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>       
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -997,7 +997,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1014,7 +1014,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>       
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1074,7 +1074,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1091,7 +1091,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1146,7 +1146,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1163,7 +1163,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1218,7 +1218,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1235,7 +1235,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1295,7 +1295,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1312,7 +1312,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1366,7 +1366,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1383,7 +1383,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1435,7 +1435,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1452,7 +1452,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1508,7 +1508,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Miscellaneous 15pt to 30pt name - 1:1,000 to 1:6,001</Name>
           <ogc:Filter>
             <ogc:And>                 
-              <ogc:PropertyIsEqualTo><ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyIsEqualTo><ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal></ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo><ogc:PropertyName>height</ogc:PropertyName>
                 <ogc:Literal>15</ogc:Literal></ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1520,7 +1520,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1576,33 +1576,33 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Not>
                 <ogc:Or>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sand and*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sand</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Mud and*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Mud</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Shingle and*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Shingle</ogc:Literal>
                   </ogc:PropertyIsEqualTo>      
                 </ogc:Or>
               </ogc:Not>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1619,7 +1619,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>8001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1675,32 +1675,32 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Not>
                 <ogc:Or>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sand and*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sand</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Mud and*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Mud</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Shingle and*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Shingle</ogc:Literal>
                   </ogc:PropertyIsEqualTo>      
                 </ogc:Or>
               </ogc:Not> 
-              <ogc:PropertyIsEqualTo><ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyIsEqualTo><ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal></ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo><ogc:PropertyName>height</ogc:PropertyName>
                 <ogc:Literal>16</ogc:Literal></ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1712,7 +1712,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1768,32 +1768,32 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Not>
                 <ogc:Or>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sand and*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sand</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Mud and*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Mud</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Shingle and*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Shingle</ogc:Literal>
                   </ogc:PropertyIsEqualTo>      
                 </ogc:Or>
               </ogc:Not> 
-              <ogc:PropertyIsEqualTo><ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyIsEqualTo><ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal></ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo><ogc:PropertyName>height</ogc:PropertyName>
                 <ogc:Literal>16</ogc:Literal></ogc:PropertyIsGreaterThanOrEqualTo>
@@ -1805,7 +1805,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>11501</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1864,7 +1864,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
@@ -1877,7 +1877,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>3701</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1931,7 +1931,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15112</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
@@ -1944,7 +1944,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2001,7 +2001,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -2014,7 +2014,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2068,7 +2068,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -2081,7 +2081,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2133,7 +2133,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -2146,7 +2146,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2203,7 +2203,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
@@ -2216,7 +2216,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>3701</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2270,7 +2270,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
@@ -2283,7 +2283,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2337,7 +2337,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
@@ -2347,31 +2347,31 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Not>
                 <ogc:Or>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Issues</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Collects</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sinks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Spreads</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Iss</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Colls</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                 </ogc:Or>
@@ -2382,7 +2382,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>8001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2436,7 +2436,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
@@ -2445,31 +2445,31 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsLessThan>
                 <ogc:Or>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Issues</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Collects</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sinks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Spreads</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Iss</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Colls</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                 </ogc:Or>
@@ -2479,7 +2479,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>8001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2533,7 +2533,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
@@ -2547,47 +2547,47 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Not>
                 <ogc:Or>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Issues</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Collects</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sinks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Spreads</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Iss</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Colls</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Drain*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Mean*Water*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>MLW*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>MHW*</ogc:Literal>
                   </ogc:PropertyIsLike>
                 </ogc:Or>
@@ -2598,7 +2598,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2652,7 +2652,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
@@ -2665,47 +2665,47 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsGreaterThanOrEqualTo>
                 <ogc:Or>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Issues</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Collects</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sinks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Spreads</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Iss</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Colls</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Drain*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Mean*Water*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>MLW*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>MHW*</ogc:Literal>
                   </ogc:PropertyIsLike>
                 </ogc:Or>
@@ -2715,7 +2715,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2769,7 +2769,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15603</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsLessThan>
@@ -2783,47 +2783,47 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Not>
                 <ogc:Or>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Issues</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Collects</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sinks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Spreads</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Iss</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Colls</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Sks</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Drain*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>Mean*Water*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>MLW*</ogc:Literal>
                   </ogc:PropertyIsLike>
                   <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
-                    <ogc:PropertyName>textstring</ogc:PropertyName>
+                    <ogc:PropertyName>textString</ogc:PropertyName>
                     <ogc:Literal>MHW*</ogc:Literal>
                   </ogc:PropertyIsLike>
                 </ogc:Or>
@@ -2834,7 +2834,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2900,7 +2900,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>15</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>       
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15017</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -2909,7 +2909,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>3701</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -2967,7 +2967,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>15</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>       
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15017</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -2976,7 +2976,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -3032,7 +3032,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>15</ogc:Literal>
               </ogc:PropertyIsGreaterThanOrEqualTo>       
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>featurecode</ogc:PropertyName>
+                <ogc:PropertyName>featureCode</ogc:PropertyName>
                 <ogc:Literal>15017</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3041,7 +3041,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -3097,7 +3097,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Important building name - 1:1,000 to 1:3,701</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15015</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -3105,7 +3105,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>3701</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -3158,7 +3158,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Important building name - 1:3,701 to 1:6,001</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15015</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -3166,7 +3166,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>6001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -3219,7 +3219,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Important building name - 1:6,001 to 1:8,001</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15015</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -3227,7 +3227,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>8001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -3280,7 +3280,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Important Building name - 1:8,001 to 1:10,001</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15015</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -3288,7 +3288,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>10001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -3341,7 +3341,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Important building name - 1:10,001 to 1:13,001</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15015</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -3349,7 +3349,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>13001</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
+              <ogc:PropertyName>textString</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>

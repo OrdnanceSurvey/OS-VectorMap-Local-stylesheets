@@ -17,185 +17,185 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <ogc:Or>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15750</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15760</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15780</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15790</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <!--
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15795</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 -->
@@ -223,30 +223,30 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <ogc:Or>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15770</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15782</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
   </ogc:Or>
@@ -272,16 +272,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15795</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -307,16 +307,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -342,16 +342,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -378,16 +378,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15790</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -413,16 +413,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15782</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -448,16 +448,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15780</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -483,16 +483,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15770</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -518,16 +518,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15760</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -553,16 +553,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15750</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -588,16 +588,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -623,16 +623,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -658,16 +658,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -693,16 +693,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -728,16 +728,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -764,16 +764,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -800,16 +800,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -837,185 +837,185 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <ogc:Or>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15750</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15760</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15780</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15790</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <!--
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15795</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 -->
@@ -1043,30 +1043,30 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <ogc:Or>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15770</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15782</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
   </ogc:Or>
@@ -1092,16 +1092,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15795</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1127,16 +1127,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1162,16 +1162,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1198,16 +1198,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15790</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1233,16 +1233,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15782</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1268,16 +1268,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15780</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1303,16 +1303,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15770</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1338,16 +1338,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15760</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1373,16 +1373,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15750</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1408,16 +1408,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1443,16 +1443,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1478,16 +1478,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1513,16 +1513,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1548,16 +1548,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1584,16 +1584,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1620,16 +1620,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1657,185 +1657,185 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <ogc:Or>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15750</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15760</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15780</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15790</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <!--
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15795</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 -->
@@ -1863,30 +1863,30 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <ogc:Or>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15770</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15782</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
   </ogc:Or>
@@ -1912,16 +1912,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15795</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1947,16 +1947,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -1982,16 +1982,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2018,16 +2018,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15790</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2053,16 +2053,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15782</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2088,16 +2088,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15780</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2123,16 +2123,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15770</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2158,16 +2158,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15760</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2193,16 +2193,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15750</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2228,16 +2228,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2263,16 +2263,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2298,16 +2298,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2333,16 +2333,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2368,16 +2368,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2404,16 +2404,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2440,16 +2440,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2476,16 +2476,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>            
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>3</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
             </ogc:Filter>
@@ -2511,16 +2511,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
               <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>3</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -2546,8 +2546,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Road Tunnels</Name>
           <ogc:Filter>            
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>true</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
@@ -2591,55 +2591,55 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 		<ogc:Or>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15750</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15760</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15770</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15780</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15782</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15790</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		</ogc:Or>
@@ -2649,7 +2649,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <TextSymbolizer 		uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:Function name="strConcat">
-                  <ogc:PropertyName>roadname				</ogc:PropertyName>
+                  <ogc:PropertyName>roadName				</ogc:PropertyName>
                 </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
@@ -2693,55 +2693,55 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 		<ogc:Or>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15750</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15760</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15770</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15780</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15782</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15790</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15793</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		</ogc:Or>
@@ -2751,7 +2751,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <TextSymbolizer 		uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:Function name="strConcat">
-                  <ogc:PropertyName>roadname				</ogc:PropertyName>
+                  <ogc:PropertyName>roadName				</ogc:PropertyName>
                 </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
@@ -2795,31 +2795,31 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 		<ogc:Or>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		</ogc:Or>
@@ -2829,7 +2829,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <TextSymbolizer 		uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:Function name="strConcat">
-                  <ogc:PropertyName>roadnumber				</ogc:PropertyName>
+                  <ogc:PropertyName>roadNumber				</ogc:PropertyName>
                 </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
@@ -2873,31 +2873,31 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 		<ogc:Or>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15710</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15720</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15723</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15726</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15729</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15740</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15743</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 		</ogc:Or>
@@ -2907,7 +2907,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <TextSymbolizer 		uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:Function name="strConcat">
-                  <ogc:PropertyName>roadnumber				</ogc:PropertyName>
+                  <ogc:PropertyName>roadNumber				</ogc:PropertyName>
                 </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>

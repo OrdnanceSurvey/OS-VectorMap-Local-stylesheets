@@ -1,16 +1,19 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="2.18.14" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
-    <edittype widgetv2type="TextEdit" name="featureid">
+    <edittype widgetv2type="TextEdit" name="fid">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featurecode">
+    <edittype widgetv2type="TextEdit" name="featureID">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featuredescription">
+    <edittype widgetv2type="TextEdit" name="featureCode">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="anchorposition">
+    <edittype widgetv2type="TextEdit" name="featureDescription">
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="anchorPosition">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="font">
@@ -25,10 +28,7 @@
     <edittype widgetv2type="TextEdit" name="orientation_uom">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="textstring">
-      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-    </edittype>
-    <edittype widgetv2type="TextEdit" name="id">
+    <edittype widgetv2type="TextEdit" name="textString">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
   </edittypes>
@@ -90,7 +90,7 @@
     <property key="labeling/dataDefined/FontStyle" value="1~~1~~CASE WHEN  &quot;font&quot;  =  0  THEN 'Italic' WHEN &quot;featureCode&quot; = 15015 THEN 'Bold' ELSE 'Normal'END~~"/>
     <property key="labeling/dataDefined/FontTransp" value="1~~1~~CASE WHEN  &quot;featureCode&quot;  =  15409 OR  &quot;featureCode&quot; = 15210 OR  &quot;featureCode&quot; = 15403 THEN 100 ELSE 0 END~~"/>
     <property key="labeling/dataDefined/Rotation" value="1~~1~~&quot;orientation&quot;  / 10~~orientation"/>
-    <property key="labeling/dataDefined/Size" value="1~~1~~&quot;height&quot;~~height"/>
+    <property key="labeling/dataDefined/Size" value="1~~1~~&quot;height&quot;/1.1~~height"/>
     <property key="labeling/decimals" value="3"/>
     <property key="labeling/displayAll" value="true"/>
     <property key="labeling/dist" value="0"/>
@@ -100,7 +100,7 @@
     <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/drawLabels" value="true"/>
     <property key="labeling/enabled" value="true"/>
-    <property key="labeling/fieldName" value="textstring"/>
+    <property key="labeling/fieldName" value="textString"/>
     <property key="labeling/fitInPolygonOnly" value="false"/>
     <property key="labeling/fontBold" value="false"/>
     <property key="labeling/fontCapitals" value="0"/>
@@ -238,7 +238,7 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerTransparency>0</layerTransparency>
-  <displayfield>featuredescription</displayfield>
+  <displayfield>featureDescription</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Label"/>
@@ -263,7 +263,6 @@
   <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
     <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
     <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
       <layer pass="0" class="SimpleMarker" locked="0">
@@ -291,33 +290,33 @@
   <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
   <annotationform>P:/Projects/VML_QML</annotationform>
   <aliases>
-    <alias field="featureid" index="0" name=""/>
-    <alias field="featurecode" index="1" name=""/>
-    <alias field="featuredescription" index="2" name=""/>
-    <alias field="anchorposition" index="3" name=""/>
-    <alias field="font" index="4" name=""/>
-    <alias field="height" index="5" name=""/>
-    <alias field="orientation" index="6" name=""/>
-    <alias field="orientation_uom" index="7" name=""/>
-    <alias field="textstring" index="8" name=""/>
-    <alias field="id" index="9" name=""/>
+    <alias field="fid" index="0" name=""/>
+    <alias field="featureID" index="1" name=""/>
+    <alias field="featureCode" index="2" name=""/>
+    <alias field="featureDescription" index="3" name=""/>
+    <alias field="anchorPosition" index="4" name=""/>
+    <alias field="font" index="5" name=""/>
+    <alias field="height" index="6" name=""/>
+    <alias field="orientation" index="7" name=""/>
+    <alias field="orientation_uom" index="8" name=""/>
+    <alias field="textString" index="9" name=""/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <attributeactions default="-1"/>
-  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;featuredescription&quot;" sortOrder="0">
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;font&quot;" sortOrder="0">
     <columns>
       <column width="-1" hidden="0" type="field" name="font"/>
       <column width="-1" hidden="0" type="field" name="height"/>
       <column width="-1" hidden="0" type="field" name="orientation"/>
       <column width="-1" hidden="0" type="field" name="orientation_uom"/>
       <column width="-1" hidden="1" type="actions"/>
-      <column width="-1" hidden="0" type="field" name="featureid"/>
-      <column width="-1" hidden="0" type="field" name="featurecode"/>
-      <column width="231" hidden="0" type="field" name="featuredescription"/>
-      <column width="-1" hidden="0" type="field" name="anchorposition"/>
-      <column width="-1" hidden="0" type="field" name="textstring"/>
-      <column width="-1" hidden="0" type="field" name="id"/>
+      <column width="-1" hidden="0" type="field" name="fid"/>
+      <column width="-1" hidden="0" type="field" name="featureID"/>
+      <column width="-1" hidden="0" type="field" name="featureCode"/>
+      <column width="-1" hidden="0" type="field" name="featureDescription"/>
+      <column width="-1" hidden="0" type="field" name="anchorPosition"/>
+      <column width="-1" hidden="0" type="field" name="textString"/>
     </columns>
   </attributetableconfig>
   <editform>P:/Projects/VML_QML</editform>
@@ -349,16 +348,16 @@ def my_form_open(dialog, layer, feature):
     <fieldstyles/>
   </conditionalstyles>
   <defaults>
-    <default field="featureid" expression=""/>
-    <default field="featurecode" expression=""/>
-    <default field="featuredescription" expression=""/>
-    <default field="anchorposition" expression=""/>
+    <default field="fid" expression=""/>
+    <default field="featureID" expression=""/>
+    <default field="featureCode" expression=""/>
+    <default field="featureDescription" expression=""/>
+    <default field="anchorPosition" expression=""/>
     <default field="font" expression=""/>
     <default field="height" expression=""/>
     <default field="orientation" expression=""/>
     <default field="orientation_uom" expression=""/>
-    <default field="textstring" expression=""/>
-    <default field="id" expression=""/>
+    <default field="textString" expression=""/>
   </defaults>
   <previewExpression>COALESCE( "featureDescription", '&lt;NULL>' )</previewExpression>
   <layerGeometryType>0</layerGeometryType>

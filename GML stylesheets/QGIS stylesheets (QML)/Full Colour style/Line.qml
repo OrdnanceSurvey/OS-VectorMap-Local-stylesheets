@@ -1,16 +1,16 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="2.18.14" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
-    <edittype widgetv2type="TextEdit" name="featureid">
+    <edittype widgetv2type="TextEdit" name="fid">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featurecode">
+    <edittype widgetv2type="TextEdit" name="featureID">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featuredescription">
+    <edittype widgetv2type="TextEdit" name="featureCode">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="id">
+    <edittype widgetv2type="TextEdit" name="featureDescription">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
   </edittypes>
@@ -33,14 +33,13 @@
       <category render="true" symbol="14" value="15540" label="Vegetation or Landform Limit"/>
       <category render="true" symbol="15" value="15560" label="Top of standard slopes"/>
       <category render="true" symbol="16" value="15600" label="Water Feature"/>
-      <category render="true" symbol="17" value="15601" label="Aqueduct"/>
-      <category render="true" symbol="18" value="15604" label="Mean High Water"/>
-      <category render="true" symbol="19" value="15605" label="Mean Low Water"/>
-      <category render="true" symbol="20" value="15101" label="Overhead Peck Detail"/>
-      <category render="true" symbol="21" value="15201" label="District or LB Boundary"/>
-      <category render="true" symbol="22" value="15410" label="Ridge or rock line"/>
-      <category render="true" symbol="23" value="15561" label="Top of large slopes"/>
-      <category render="true" symbol="24" value="15562" label="Top of Cliff"/>
+      <category render="true" symbol="17" value="15604" label="Mean High Water"/>
+      <category render="true" symbol="18" value="15605" label="Mean Low Water"/>
+      <category render="true" symbol="19" value="15101" label="Overhead Peck Detail"/>
+      <category render="true" symbol="20" value="15201" label="District or LB Boundary"/>
+      <category render="true" symbol="21" value="15410" label="Ridge or rock line"/>
+      <category render="true" symbol="22" value="15561" label="Top of large slopes"/>
+      <category render="true" symbol="23" value="15562" label="Top of Cliff"/>
     </categories>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="line" name="0">
@@ -285,25 +284,6 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="line" name="17">
-        <layer pass="0" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="square"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="0,169,202,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="1.64001"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="line" name="18">
         <layer pass="10" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="customdash" v="5;2"/>
@@ -322,7 +302,7 @@
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="line" name="19">
+      <symbol alpha="1" clip_to_extent="1" type="line" name="18">
         <layer pass="9" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="customdash" v="5;2"/>
@@ -338,6 +318,25 @@
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="line" name="19">
+        <layer pass="10" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="flat"/>
+          <prop k="customdash" v="32;32"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="115,103,103,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="1.64001"/>
+          <prop k="line_width_unit" v="MapUnit"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_custom_dash" v="1"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
       </symbol>
@@ -361,25 +360,6 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="line" name="20">
-        <layer pass="10" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="flat"/>
-          <prop k="customdash" v="32;32"/>
-          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="115,103,103,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="1.64001"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="use_custom_dash" v="1"/>
-          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="line" name="21">
         <layer pass="14" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="31.73;16.4"/>
@@ -398,7 +378,7 @@
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="line" name="22">
+      <symbol alpha="1" clip_to_extent="1" type="line" name="21">
         <layer pass="6" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="customdash" v="8;6"/>
@@ -417,7 +397,7 @@
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="line" name="23">
+      <symbol alpha="1" clip_to_extent="1" type="line" name="22">
         <layer pass="5" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
           <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -430,7 +410,7 @@
           <prop k="offset_unit" v="MM"/>
           <prop k="placement" v="interval"/>
           <prop k="rotate" v="1"/>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="@23@0">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@22@0">
             <layer pass="0" class="FontMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="chr" v="b"/>
@@ -453,7 +433,7 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="line" name="24">
+      <symbol alpha="1" clip_to_extent="1" type="line" name="23">
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="20"/>
           <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -466,7 +446,7 @@
           <prop k="offset_unit" v="MM"/>
           <prop k="placement" v="interval"/>
           <prop k="rotate" v="1"/>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="@24@0">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@23@0">
             <layer pass="0" class="FontMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="chr" v="z"/>
@@ -842,7 +822,7 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerTransparency>0</layerTransparency>
-  <displayfield>featuredescription</displayfield>
+  <displayfield>featureDescription</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Label"/>
@@ -867,7 +847,6 @@
   <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
     <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
     <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
       <layer pass="0" class="SimpleMarker" locked="0">
@@ -895,10 +874,10 @@
   <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
   <annotationform>P:/Projects/VML_QML</annotationform>
   <aliases>
-    <alias field="featureid" index="0" name=""/>
-    <alias field="featurecode" index="1" name=""/>
-    <alias field="featuredescription" index="2" name=""/>
-    <alias field="id" index="3" name=""/>
+    <alias field="fid" index="0" name=""/>
+    <alias field="featureID" index="1" name=""/>
+    <alias field="featureCode" index="2" name=""/>
+    <alias field="featureDescription" index="3" name=""/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
@@ -906,10 +885,10 @@
   <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;gml_id&quot;" sortOrder="0">
     <columns>
       <column width="-1" hidden="1" type="actions"/>
-      <column width="-1" hidden="0" type="field" name="featureid"/>
-      <column width="-1" hidden="0" type="field" name="featurecode"/>
-      <column width="-1" hidden="0" type="field" name="featuredescription"/>
-      <column width="-1" hidden="0" type="field" name="id"/>
+      <column width="-1" hidden="0" type="field" name="fid"/>
+      <column width="-1" hidden="0" type="field" name="featureID"/>
+      <column width="-1" hidden="0" type="field" name="featureCode"/>
+      <column width="-1" hidden="0" type="field" name="featureDescription"/>
     </columns>
   </attributetableconfig>
   <editform>P:/Projects/VML_QML</editform>
@@ -941,10 +920,10 @@ def my_form_open(dialog, layer, feature):
     <fieldstyles/>
   </conditionalstyles>
   <defaults>
-    <default field="featureid" expression=""/>
-    <default field="featurecode" expression=""/>
-    <default field="featuredescription" expression=""/>
-    <default field="id" expression=""/>
+    <default field="fid" expression=""/>
+    <default field="featureID" expression=""/>
+    <default field="featureCode" expression=""/>
+    <default field="featureDescription" expression=""/>
   </defaults>
   <previewExpression>COALESCE( "featureDescription", '&lt;NULL>' )</previewExpression>
   <layerGeometryType>1</layerGeometryType>

@@ -18,7 +18,7 @@ These are SLD files for OS VectorMap Local in GZ/GML format for use in GeoServer
 
 **6.**  To create OS VectorMap Local in GeoServer you will need to create a Layer Group. If using the GUI then navigate to Layer Groups > Add new layer group > Add Layer and choose each layer in turn to create the following layer order:
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/GeoServer%20stylesheets%20(SLD)/Full%20Colour%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 Although every feature is styled, for use as a general contextual map we have commented some of them out by default.

@@ -1,31 +1,31 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="2.18.14" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
-    <edittype widgetv2type="TextEdit" name="featureid">
+    <edittype widgetv2type="TextEdit" name="fid">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featurecode">
+    <edittype widgetv2type="TextEdit" name="featureID">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featuredescription">
+    <edittype widgetv2type="TextEdit" name="featureCode">
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="featureDescription">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="suppressed">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="intunnel">
-      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-    </edittype>
-    <edittype widgetv2type="TextEdit" name="id">
+    <edittype widgetv2type="TextEdit" name="inTunnel">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
   </edittypes>
   <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
     <rules key="{a250d8ea-134b-48e2-88f8-b46a2a200b5c}">
-      <rule filter="&quot;featureCode&quot; = 15301 AND &quot;intunnel&quot;  = 'f'" key="{b3ad17b5-0e17-4b59-a058-3bf5b576fdd8}" symbol="0" label="Single track railway or siding"/>
-      <rule filter="&quot;featureCode&quot; = 15302 AND &quot;intunnel&quot;  = 'f'" key="{c8e77b2d-d586-4f41-859c-b3b6d1a7223b}" symbol="1" label="Narrow gauge railway"/>
-      <rule filter="&quot;featureCode&quot; = 15300  AND  &quot;intunnel&quot; = 'f'" key="{c080ac21-53c8-461b-ab5e-4cda33e15b07}" symbol="2" label="Multi track railway"/>
-      <rule filter=" &quot;intunnel&quot;  = 't'" key="{adc5fb1e-d9c8-49cc-88e1-d821f4b598e8}" symbol="3" label="Railway tunnels"/>
+      <rule filter="&quot;featureCode&quot; = 15301 AND &quot;inTunnel&quot;  = 0" key="{b3ad17b5-0e17-4b59-a058-3bf5b576fdd8}" symbol="0" label="Single track railway or siding"/>
+      <rule filter="&quot;featureCode&quot; = 15302 AND &quot;inTunnel&quot;  = 0" key="{c8e77b2d-d586-4f41-859c-b3b6d1a7223b}" symbol="1" label="Narrow gauge railway"/>
+      <rule filter="&quot;featureCode&quot; = 15300 AND &quot;inTunnel&quot;  = 0" key="{c080ac21-53c8-461b-ab5e-4cda33e15b07}" symbol="2" label="Multi track railway"/>
+      <rule filter="&quot;inTunnel&quot;  = 1" key="{adc5fb1e-d9c8-49cc-88e1-d821f4b598e8}" symbol="3" label="Railway tunnels"/>
     </rules>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="line" name="0">
@@ -293,7 +293,7 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerTransparency>0</layerTransparency>
-  <displayfield>featuredescription</displayfield>
+  <displayfield>featureDescription</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Label"/>
@@ -318,7 +318,6 @@
   <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
     <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
     <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
       <layer pass="0" class="SimpleMarker" locked="0">
@@ -346,25 +345,25 @@
   <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
   <annotationform>P:/Projects/VML_QML</annotationform>
   <aliases>
-    <alias field="featureid" index="0" name=""/>
-    <alias field="featurecode" index="1" name=""/>
-    <alias field="featuredescription" index="2" name=""/>
-    <alias field="suppressed" index="3" name=""/>
-    <alias field="intunnel" index="4" name=""/>
-    <alias field="id" index="5" name=""/>
+    <alias field="fid" index="0" name=""/>
+    <alias field="featureID" index="1" name=""/>
+    <alias field="featureCode" index="2" name=""/>
+    <alias field="featureDescription" index="3" name=""/>
+    <alias field="suppressed" index="4" name=""/>
+    <alias field="inTunnel" index="5" name=""/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <attributeactions default="-1"/>
-  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;intunnel&quot;" sortOrder="0">
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;featureDescription&quot;" sortOrder="0">
     <columns>
       <column width="-1" hidden="0" type="field" name="suppressed"/>
       <column width="-1" hidden="1" type="actions"/>
-      <column width="-1" hidden="0" type="field" name="featureid"/>
-      <column width="-1" hidden="0" type="field" name="featurecode"/>
-      <column width="-1" hidden="0" type="field" name="featuredescription"/>
-      <column width="-1" hidden="0" type="field" name="intunnel"/>
-      <column width="-1" hidden="0" type="field" name="id"/>
+      <column width="-1" hidden="0" type="field" name="fid"/>
+      <column width="-1" hidden="0" type="field" name="featureID"/>
+      <column width="-1" hidden="0" type="field" name="featureCode"/>
+      <column width="-1" hidden="0" type="field" name="featureDescription"/>
+      <column width="-1" hidden="0" type="field" name="inTunnel"/>
     </columns>
   </attributetableconfig>
   <editform>P:/Projects/VML_QML</editform>
@@ -396,12 +395,12 @@ def my_form_open(dialog, layer, feature):
     <fieldstyles/>
   </conditionalstyles>
   <defaults>
-    <default field="featureid" expression=""/>
-    <default field="featurecode" expression=""/>
-    <default field="featuredescription" expression=""/>
+    <default field="fid" expression=""/>
+    <default field="featureID" expression=""/>
+    <default field="featureCode" expression=""/>
+    <default field="featureDescription" expression=""/>
     <default field="suppressed" expression=""/>
-    <default field="intunnel" expression=""/>
-    <default field="id" expression=""/>
+    <default field="inTunnel" expression=""/>
   </defaults>
   <previewExpression>COALESCE( "featureDescription", '&lt;NULL>' )</previewExpression>
   <layerGeometryType>1</layerGeometryType>

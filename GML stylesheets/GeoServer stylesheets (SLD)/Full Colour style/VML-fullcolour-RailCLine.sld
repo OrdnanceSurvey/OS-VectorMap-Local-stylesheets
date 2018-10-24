@@ -17,12 +17,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
 		<ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15302</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 </ogc:Filter>
@@ -44,12 +44,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15302</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -71,12 +71,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15301</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -101,12 +101,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
 <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featurecode</ogc:PropertyName>
+              <ogc:PropertyName>featureCode</ogc:PropertyName>
               <ogc:Literal>15300</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>false</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -130,8 +130,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Railway tunnels</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>intunnel</ogc:PropertyName>
-              <ogc:Literal>true</ogc:Literal>
+              <ogc:PropertyName>inTunnel</ogc:PropertyName>
+              <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>

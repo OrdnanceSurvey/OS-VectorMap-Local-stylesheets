@@ -1,16 +1,16 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="2.18.14" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
-    <edittype widgetv2type="TextEdit" name="featureid">
+    <edittype widgetv2type="TextEdit" name="fid">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featurecode">
+    <edittype widgetv2type="TextEdit" name="featureID">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featuredescription">
+    <edittype widgetv2type="TextEdit" name="featureCode">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="id">
+    <edittype widgetv2type="TextEdit" name="featureDescription">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
   </edittypes>
@@ -73,7 +73,7 @@
       <rule filter="&quot;featureCode&quot; = 15538" key="{56cd16b1-7589-4345-8f05-182906260a12}" symbol="53" label="Mud"/>
       <rule filter="&quot;featureCode&quot; = 15550" key="{744198b5-ba50-4807-900d-5ccee331bcac}" symbol="54" label="Custom landform polygon"/>
       <rule filter="&quot;featureCode&quot; = 15608" key="{c8961440-1b97-4c1e-bfd4-a8da30e9db63}" symbol="55" label="Sea polygon"/>
-      <rule filter="&quot;featureCode&quot; = 15609" key="{3f637b26-acbc-4f11-a323-2fb625c512dd}" symbol="56" label="Inland water polygon"/>
+      <rule filter="&quot;featureCode&quot; = 15609" key="{87e0ccf0-7720-4ae8-b2d8-1d7f91f554e0}" symbol="56" label="Inland water polygon"/>
       <rule filter="&quot;featureCode&quot; = 15601" key="{1fd85ee2-0f5a-42c5-a078-845e531d95aa}" symbol="57" label="Aqueduct"/>
       <rule filter=" &quot;featureCode&quot;  = 15303" key="{e9b712bf-e450-4d38-a9b3-002c766b8a21}" symbol="58" label="Railway Bridge"/>
       <rule filter="&quot;featureCode&quot; = 15304" key="{06e654b5-f978-4819-a3fc-c4809019fc2a}" symbol="59" label="Footbridge"/>
@@ -3445,7 +3445,7 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerTransparency>0</layerTransparency>
-  <displayfield>featuredescription</displayfield>
+  <displayfield>featureDescription</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Label"/>
@@ -3470,7 +3470,6 @@
   <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
     <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
     <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
       <layer pass="0" class="SimpleMarker" locked="0">
@@ -3498,10 +3497,10 @@
   <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
   <annotationform>P:/Projects/VML_QML</annotationform>
   <aliases>
-    <alias field="featureid" index="0" name=""/>
-    <alias field="featurecode" index="1" name=""/>
-    <alias field="featuredescription" index="2" name=""/>
-    <alias field="id" index="3" name=""/>
+    <alias field="fid" index="0" name=""/>
+    <alias field="featureID" index="1" name=""/>
+    <alias field="featureCode" index="2" name=""/>
+    <alias field="featureDescription" index="3" name=""/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
@@ -3509,10 +3508,10 @@
   <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;featureCode&quot;" sortOrder="0">
     <columns>
       <column width="-1" hidden="1" type="actions"/>
-      <column width="-1" hidden="0" type="field" name="featureid"/>
-      <column width="-1" hidden="0" type="field" name="featurecode"/>
-      <column width="-1" hidden="0" type="field" name="featuredescription"/>
-      <column width="-1" hidden="0" type="field" name="id"/>
+      <column width="-1" hidden="0" type="field" name="fid"/>
+      <column width="-1" hidden="0" type="field" name="featureID"/>
+      <column width="-1" hidden="0" type="field" name="featureCode"/>
+      <column width="-1" hidden="0" type="field" name="featureDescription"/>
     </columns>
   </attributetableconfig>
   <editform>P:/Projects/VML_QML</editform>
@@ -3544,10 +3543,10 @@ def my_form_open(dialog, layer, feature):
     <fieldstyles/>
   </conditionalstyles>
   <defaults>
-    <default field="featureid" expression=""/>
-    <default field="featurecode" expression=""/>
-    <default field="featuredescription" expression=""/>
-    <default field="id" expression=""/>
+    <default field="fid" expression=""/>
+    <default field="featureID" expression=""/>
+    <default field="featureCode" expression=""/>
+    <default field="featureDescription" expression=""/>
   </defaults>
   <previewExpression>COALESCE( "featureDescription", '&lt;NULL>' )</previewExpression>
   <layerGeometryType>2</layerGeometryType>
