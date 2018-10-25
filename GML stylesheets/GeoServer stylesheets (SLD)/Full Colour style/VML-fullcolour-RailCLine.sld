@@ -22,7 +22,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>inTunnel</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
+              <ogc:Literal>false</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
 </ogc:Filter>
@@ -49,7 +49,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>inTunnel</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
+              <ogc:Literal>false</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -76,7 +76,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>inTunnel</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
+              <ogc:Literal>false</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -106,7 +106,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
 <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>inTunnel</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
+              <ogc:Literal>false</ogc:Literal>
             </ogc:PropertyIsEqualTo>
 </ogc:And>
           </ogc:Filter>
@@ -131,7 +131,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>inTunnel</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:Literal>true</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
