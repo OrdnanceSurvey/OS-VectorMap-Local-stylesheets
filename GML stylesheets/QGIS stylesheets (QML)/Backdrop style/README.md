@@ -14,7 +14,7 @@ These are QML files for OS VectorMap Local in GML/GZ format for use in QGIS.
 
 *Your machine may require a restart for QGIS to recognise the new font and SVGs*
 
-**4.**  Load your OS VectorMap Local SHP data into QGIS
+**4.**  Load your OS VectorMap Local GML data into QGIS
 
 **5.**  Double click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the QML file that corresponds to that layer > click 'Open' > click 'OK'
 
