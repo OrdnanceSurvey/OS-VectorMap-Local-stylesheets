@@ -2650,7 +2650,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <Label>
               <ogc:Function name="strConcat">
                   <ogc:PropertyName>roadName				</ogc:PropertyName>
-                </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
             </Label>
@@ -2752,7 +2751,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <Label>
               <ogc:Function name="strConcat">
                   <ogc:PropertyName>roadName				</ogc:PropertyName>
-                </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
             </Label>
@@ -2830,7 +2828,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <Label>
               <ogc:Function name="strConcat">
                   <ogc:PropertyName>roadNumber				</ogc:PropertyName>
-                </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
             </Label>
@@ -2908,7 +2905,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <Label>
               <ogc:Function name="strConcat">
                   <ogc:PropertyName>roadNumber				</ogc:PropertyName>
-                </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
             </Label>
