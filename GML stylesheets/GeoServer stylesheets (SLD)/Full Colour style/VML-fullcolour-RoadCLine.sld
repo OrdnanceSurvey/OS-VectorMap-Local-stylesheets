@@ -2663,7 +2663,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </LinePlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>7</Radius>
+              <Radius>1.5</Radius>
               <Fill>
                 <CssParameter name="fill">#000000</CssParameter>
                 <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -2764,7 +2764,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </LinePlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>7</Radius>
+              <Radius>3</Radius>
               <Fill>
                 <CssParameter name="fill">#000000</CssParameter>
                 <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -2841,7 +2841,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </LinePlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>7</Radius>
+              <Radius>1.5</Radius>
               <Fill>
                 <CssParameter name="fill">#000000</CssParameter>
                 <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -2918,7 +2918,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </LinePlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>7</Radius>
+              <Radius>3</Radius>
               <Fill>
                 <CssParameter name="fill">#000000</CssParameter>
                 <CssParameter name="fill-opacity">0.8</CssParameter>
