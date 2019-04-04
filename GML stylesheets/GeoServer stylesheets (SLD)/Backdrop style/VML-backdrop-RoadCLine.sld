@@ -2746,7 +2746,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 		</ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>1500</MaxScaleDenominator>
+          <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer 		uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:Function name="strConcat">
