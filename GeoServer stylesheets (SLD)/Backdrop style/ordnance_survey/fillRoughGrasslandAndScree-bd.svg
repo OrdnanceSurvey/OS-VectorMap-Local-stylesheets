@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<symbol  id="Scree1" viewBox="-0.5 -0.4 0.9 0.9">
+	<path fill="#BEBEB4" d="M0.4,0.1c0,0-0.1,0.2-0.3,0.3c0,0-0.6-0.2-0.6-0.5c0,0,0.1-0.3,0.3-0.3c0,0,0.2-0.1,0.4,0
+		C0.2-0.4,0.6-0.1,0.4,0.1z M0.3-0.2C0.1-0.5-0.3-0.1-0.3-0.1C-0.5,0.1,0,0.3,0,0.3C0.6,0.2,0.3-0.2,0.3-0.2z"/>
+</symbol>
+<symbol  id="Scree2" viewBox="-0.3 -0.2 0.6 0.4">
+	<path fill="#BEBEB4" d="M0.2,0.1c0,0-0.2,0.2-0.3,0L-0.3,0v-0.1l0.2-0.1c0,0,0.3,0,0.3,0L0.2,0.1L0.2,0.1z M0.2-0.1
+		C0.1-0.2-0.1-0.1-0.1-0.1C-0.2,0-0.2,0-0.2,0C-0.2,0.1,0,0.1,0,0.1c0.1,0,0.2,0,0.2,0L0.2-0.1z"/>
+</symbol>
+<symbol  id="rock1_x5F_bd" viewBox="-0.7 -0.6 1.4 1.2">
+	<g>
+		<path fill="#BEBEB4" d="M-0.6,0c0,0.1,0.1,0.2,0.1,0.2c0,0,0.1,0.1,0.1,0.1c0,0,0.1,0.1,0.2,0.1c0,0,0.1,0,0.1,0.1
+			C-0.1,0.5,0,0.6,0,0.6c0,0,0.1,0,0.1,0c0,0,0,0,0,0c0.1,0,0.2-0.1,0.3-0.1c0.1-0.1,0.2-0.2,0.2-0.3c0-0.1,0-0.2,0-0.3
+			c0-0.1,0-0.2,0-0.2c0,0,0,0,0-0.1c0.1-0.1,0.1-0.1,0.1-0.2c0-0.1,0-0.1-0.1-0.1c0,0,0,0-0.1,0c-0.1,0-0.1,0-0.2,0
+			c-0.1,0-0.1,0-0.2,0c0,0-0.1,0-0.1,0c0,0-0.1,0-0.2,0c-0.1,0-0.2,0-0.2,0c-0.1,0-0.1,0-0.2,0.1c-0.1,0.1-0.1,0.2-0.1,0.2
+			c0,0,0,0,0,0C-0.7-0.2-0.7-0.1-0.6,0z M-0.5-0.4C-0.5-0.4-0.5-0.4-0.5-0.4C-0.5-0.4-0.5-0.5-0.5-0.4c0.1,0,0.1,0,0.2,0
+			c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0s0.1,0,0.1,0c0.1,0,0.1,0,0.2,0c0.1,0,0.1,0,0.2-0.1c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0
+			c0,0,0.1,0,0.1,0c0,0,0,0,0,0c0,0,0,0,0,0.1c0,0,0,0,0,0.1c0,0,0,0.1,0,0.1c0,0.1,0,0.1,0,0.2c0,0.1,0,0.1,0,0.2c0,0,0,0-0.1,0.1
+			c-0.1,0-0.1,0-0.1,0.1c0,0,0,0-0.1,0.1c0,0,0,0.1-0.1,0.1c0,0-0.1,0-0.1,0c0,0,0,0-0.1-0.1c0,0,0-0.1-0.1-0.1c0,0-0.1,0-0.1,0
+			c-0.1,0-0.1,0-0.1,0c-0.1,0-0.2-0.1-0.2-0.2c0,0,0-0.1,0-0.1c0,0,0,0,0-0.1c0,0,0-0.1,0-0.1c0,0,0-0.1,0-0.1
+			C-0.6-0.3-0.6-0.4-0.5-0.4z"/>
+	</g>
+</symbol>
+<symbol  id="rock2_x5F_bd" viewBox="-0.9 -0.8 1.8 1.6">
+	<g>
+		<path fill="#BEBEB4" d="M0.9-0.3C0.9-0.3,0.9-0.4,0.9-0.3c0-0.1,0-0.2-0.1-0.3c0-0.1-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.3,0
+			C0.1-0.7,0-0.7,0-0.7c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0c-0.1,0-0.2,0-0.2,0c0,0,0,0-0.1,0c-0.1,0-0.2,0.1-0.2,0.1
+			c0,0.1,0,0.1,0.1,0.2c0,0,0,0,0,0.1c0,0,0,0.1,0,0.2c0,0.1,0,0.2,0,0.3c0,0.1,0.1,0.2,0.3,0.3c0.1,0.1,0.3,0.1,0.4,0.2
+			c0,0,0,0,0,0c0,0,0.1,0,0.2-0.1c0,0,0.1-0.1,0.1-0.1c0-0.1,0.1-0.1,0.1-0.1c0.1-0.1,0.2-0.1,0.2-0.1c0.1-0.1,0.1-0.1,0.2-0.1
+			c0,0,0.1-0.1,0.1-0.3C0.8-0.2,0.9-0.3,0.9-0.3z M0.7-0.3c0,0,0,0.1,0,0.1c0,0.1,0,0.1-0.1,0.2c0,0.1,0,0.1,0,0.1
+			c0,0,0,0.1-0.1,0.1C0.5,0.2,0.4,0.3,0.3,0.4c0,0-0.1,0-0.1,0C0.1,0.4,0,0.4,0,0.5c0,0-0.1,0.1-0.1,0.1c0,0.1-0.1,0.1-0.1,0.1
+			c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1-0.1c-0.1-0.1-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.1-0.1c0,0,0-0.1,0-0.2
+			c0-0.1,0-0.1,0-0.2s0-0.1,0-0.2c0,0,0-0.1,0-0.1c0,0,0-0.1-0.1-0.1c0,0,0,0,0,0c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0
+			c0.1,0,0.1,0,0.2,0.1c0.1,0,0.2,0,0.3,0c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1-0.1c0.1,0,0.2,0,0.2,0c0,0,0,0,0,0
+			c0,0,0,0,0,0C0.7-0.5,0.7-0.4,0.7-0.3z"/>
+	</g>
+</symbol>
+<use xlink:href="#rock2_x5F_bd"  width="1.8" height="1.6" x="-0.9" y="-0.8" transform="matrix(0.9995 0 0 -0.9995 8.3237 40.1968)" overflow="visible"/>
+<use xlink:href="#rock2_x5F_bd"  width="1.8" height="1.6" x="-0.9" y="-0.8" transform="matrix(0.9995 0 0 -0.9995 10.9927 37.9253)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 6.5693 37.1621)" overflow="visible"/>
+<use xlink:href="#rock2_x5F_bd"  width="1.8" height="1.6" x="-0.9" y="-0.8" transform="matrix(0.9995 0 0 -0.9995 26.5044 34.9214)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 29.1738 32.6504)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 24.75 31.8867)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 8.7852 23.9688)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 13.1777 13.5586)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 8.7539 12.7949)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 28.4619 3.7754)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 24.0376 3.0117)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 39.6445 11.8223)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 45.1582 3.4375)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 37.4727 23.9717)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 40.1416 21.7002)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 35.7168 20.9365)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock1_x5F_bd"  width="1.4" height="1.2" x="-0.7" y="-0.6" transform="matrix(0.9979 0 0 -0.9979 45.4092 33.6025)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock2_x5F_bd"  width="1.8" height="1.6" x="-0.9" y="-0.8" transform="matrix(0.9995 0 0 -0.9995 32.3784 44.2036)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock2_x5F_bd"  width="1.8" height="1.6" x="-0.9" y="-0.8" transform="matrix(0.9995 0 0 -0.9995 5.9346 47.8901)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#rock2_x5F_bd"  width="1.8" height="1.6" x="-0.9" y="-0.8" transform="matrix(0.9995 0 0 -0.9995 8.6035 45.6186)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 2.4998 40.9169)" overflow="visible"/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 2.0833 36.3329)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 48.4168 39.9169)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 45.4168 44.1669)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 43.6668 40.9999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 47.9168 45.9999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 43.9168 47.9169)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 38.3338 48.4999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 33.1668 48.2499)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 25.3333 48.5829)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 19.3333 47.8329)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 13.0833 48.5829)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 9.1668 47.9999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 0.8333 48.0829)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 7.4168 42.7499)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 40.8338 45.0829)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 35.9998 45.4999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 12.2498 44.6669)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 15.9168 44.9999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 22.6668 45.1669)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 11.6668 41.4169)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 16.4998 40.5829)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 19.9168 42.5829)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 25.3333 40.4999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 38.5838 41.7499)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 35.2498 39.5829)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 30.4998 41.9169)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 39.9168 37.8329)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 46.4998 37.1669)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 14.3333 36.6669)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 19.1668 37.8329)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 23.4168 36.4169)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 30.2498 37.4999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 35.5838 36.1669)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 13.2498 28.4999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 13.4168 21.7499)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 14.8333 15.9999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 13.3333 9.0834)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 12.4998 3.0834)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 10.4998 31.5829)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 16.1668 32.4999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 14.5833 23.9999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 34.5838 1.5834)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 33.6668 5.4999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 32.0838 10.0834)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 32.0838 14.7064)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 29.4168 17.2499)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 28.2498 20.4999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 27.741 24.4306)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 26.4998 28.2499)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 32.8338 18.9999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 33.4168 22.1664)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 34.1668 25.9164)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 32.2498 33.3329)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 33.4168 29.5829)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 36.2498 31.9999)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 36.1668 17.3334)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree1"  width="0.9" height="0.9" x="-0.5" y="-0.4" transform="matrix(1.0001 0 0 -1.0001 39.2498 19.1664)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 3.75 1.9998)" overflow="visible"/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 3.5 4.4163)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 3.4375 7.9998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 6.7085 5.6668)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 0.7915 9.7918)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 1.375 6.5418)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 0.9165 13.6668)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 2.6665 10.9998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 2.8335 15.9998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 5.375 10.5833)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 6.0835 13.1668)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 6.25 15.6668)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 5 18.2083)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 7.4419 18.5686)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 8.7085 21.2083)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 6.625 23.2918)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 4.0835 20.3333)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 1.5415 22.5418)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 11.2085 1.2918)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 10.75 3.8333)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 10.5 6.1248)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 9.8335 8.3333)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 9.2915 10.7918)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 12.125 6.1668)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 14.0835 10.9168)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 11.5835 11.6668)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 18.7915 1.3748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 18.25 3.2918)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 17.8335 4.7918)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 17.0835 7.2918)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 16.4585 9.9583)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 18.3335 9.7083)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 19.0415 11.4998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 19.6665 13.2918)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 19.2085 15.3748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 18 17.6248)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 16.0415 20.6668)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 20.2915 17.2498)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 20.9165 19.4998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 21.125 22.3333)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 21.4165 25.2083)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 23.4165 27.9998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 20.2915 28.6248)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 19.6665 31.5828)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 8.8125 34.4373)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 38.8125 34.9998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 18 34.9373)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 22.1875 32.3748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 12.875 32.8748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 5 32.9998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 2 30.3748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 2.4375 26.2498)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 49.0625 26.1248)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 49.125 33.8748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 45.875 30.3123)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 41.25 29.6873)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 26.1328 4.0501)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 23.4375 7.2498)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 26.4375 7.8123)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 28.5625 6.6873)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 22.25 9.0623)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 24.5625 9.3748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 27.4375 9.7498)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 29.875 8.4373)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 21.6875 11.9373)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 24.5625 11.8123)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 28.1875 11.4373)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 32.6875 12.1873)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 22.5625 13.7498)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 26.3125 13.6873)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 29.625 13.8748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 24.25 15.9998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 23 18.6873)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 26.5625 16.8123)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 25.25 20.4998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 45.625 5.6248)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 43.4375 7.9998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 38.3125 9.0623)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 41.5 10.1873)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 45.0625 10.3123)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 47.5 8.3748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 43 12.8123)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 46.9375 11.8123)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 40.25 14.4998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 43.3047 15.1629)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 46.1875 14.3748)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 40.4375 16.9998)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 44.375 17.2498)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 48.1875 15.7498)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 46.6875 18.6873)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 42.4375 19.0623)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 49.625 18.1873)" overflow="visible" enable-background="new    "/>
+<use xlink:href="#Scree2"  width="0.6" height="0.4" x="-0.3" y="-0.2" transform="matrix(1 0 0 -1 44.25 26.8748)" overflow="visible" enable-background="new    "/>
+<g id="roughgrass_x5F_bd_14_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_16_">
+		<path fill="#A9CDA6" d="M4.7,26.7L4.7,26.7L4.7,26.7l-0.1,0.1c0,0-0.1,0-0.1,0l-0.2-0.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0L4.7,26.7z"
+			/>
+		<path fill="#A9CDA6" d="M5.8,26.5C5.8,26.5,5.8,26.5,5.8,26.5C5.8,26.5,5.8,26.4,5.8,26.5c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C6.1,26.1,5.8,26.5,5.8,26.5z"/>
+		<path fill="#A9CDA6" d="M5.8,26.5c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C5.8,26.6,5.8,26.5,5.8,26.5z"/>
+		<path fill="#A9CDA6" d="M6.9,26l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C6.5,26.2,6.7,26,6.9,26z"/>
+		<path fill="#A9CDA6" d="M7.9,26.6L7.9,26.6l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C7.7,26.5,7.8,26.5,7.9,26.6L7.9,26.6
+			L7.9,26.6z"/>
+		<path fill="#A9CDA6" d="M5.2,26.3l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0L5,26.4v-0.1l0,0L5.2,26.3
+			C5.1,26.2,5.2,26.3,5.2,26.3z"/>
+		<path fill="#A9CDA6" d="M7.2,26.2L7.2,26.2L7.2,26.2l0.1,0.1l-0.1,0.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L7.2,26.2
+			C7.1,26.3,7.1,26.2,7.2,26.2z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_15_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_17_">
+		<path fill="#A9CDA6" d="M2.9,23.7L2.9,23.7L2.9,23.7l-0.1,0.1c0,0-0.1,0-0.1,0l-0.2-0.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0L2.9,23.7z"
+			/>
+		<path fill="#A9CDA6" d="M4.1,23.4C4.1,23.4,4.1,23.4,4.1,23.4C4.1,23.4,4,23.4,4.1,23.4c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C4.3,23,4.1,23.4,4.1,23.4z"/>
+		<path fill="#A9CDA6" d="M4.1,23.4c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C4,23.6,4,23.5,4.1,23.4z"/>
+		<path fill="#A9CDA6" d="M5.1,23l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C4.8,23.2,4.9,23,5.1,23z"/>
+		<path fill="#A9CDA6" d="M6.1,23.5L6.1,23.5l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C6,23.4,6,23.4,6.1,23.5L6.1,23.5
+			L6.1,23.5z"/>
+		<path fill="#A9CDA6" d="M3.4,23.3l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0l-0.1-0.3v-0.1l0,0L3.4,23.3
+			C3.4,23.2,3.4,23.2,3.4,23.3z"/>
+		<path fill="#A9CDA6" d="M5.4,23.2L5.4,23.2L5.4,23.2l0.1,0.1l-0.1,0.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L5.4,23.2
+			C5.3,23.2,5.4,23.2,5.4,23.2z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_16_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_18_">
+		<path fill="#A9CDA6" d="M9.1,16.3L9.1,16.3L9.1,16.3L9,16.4c0,0-0.1,0-0.1,0l-0.2-0.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0L9.1,16.3z"/>
+		<path fill="#A9CDA6" d="M10.2,16.1C10.2,16.1,10.2,16.1,10.2,16.1C10.2,16,10.2,16,10.2,16.1C10.1,16,10,15.9,10,15.9
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C10.5,15.7,10.2,16.1,10.2,16.1z"/>
+		<path fill="#A9CDA6" d="M10.2,16.1c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C10.2,16.2,10.2,16.1,10.2,16.1z"/>
+		<path fill="#A9CDA6" d="M11.3,15.6L11,15.8c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C10.9,15.8,11.1,15.6,11.3,15.6z"/>
+		<path fill="#A9CDA6" d="M12.3,16.1L12.3,16.1l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C12.1,16.1,12.2,16.1,12.3,16.1
+			L12.3,16.1L12.3,16.1z"/>
+		<path fill="#A9CDA6" d="M9.6,15.9l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0L9.4,16v-0.1l0,0L9.6,15.9
+			C9.5,15.8,9.6,15.8,9.6,15.9z"/>
+		<path fill="#A9CDA6" d="M11.5,15.8L11.5,15.8L11.5,15.8l0.1,0.1l-0.1,0.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L11.5,15.8
+			C11.5,15.8,11.5,15.8,11.5,15.8z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_2_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_4_">
+		<path fill="#A9CDA6" d="M24.4,6.5L24.4,6.5L24.4,6.5l-0.1,0.1c0,0-0.1,0-0.1,0L24,6.4l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0L24.4,6.5z"/>
+		<path fill="#A9CDA6" d="M25.5,6.3C25.5,6.3,25.5,6.3,25.5,6.3C25.5,6.3,25.5,6.3,25.5,6.3c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C25.7,5.9,25.5,6.3,25.5,6.3z"/>
+		<path fill="#A9CDA6" d="M25.5,6.3c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C25.4,6.4,25.5,6.3,25.5,6.3z"/>
+		<path fill="#A9CDA6" d="M26.6,5.8l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C26.2,6,26.3,5.8,26.6,5.8z"/>
+		<path fill="#A9CDA6" d="M27.5,6.4L27.5,6.4l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C27.4,6.3,27.4,6.3,27.5,6.4L27.5,6.4
+			L27.5,6.4z"/>
+		<path fill="#A9CDA6" d="M24.9,6.1L25,6.4l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0l-0.1-0.3V6.1l0,0L24.9,6.1
+			C24.8,6,24.8,6.1,24.9,6.1z"/>
+		<path fill="#A9CDA6" d="M26.8,6.1L26.8,6.1L26.8,6.1l0.1,0.1l-0.1,0.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L26.8,6.1
+			C26.8,6.1,26.8,6,26.8,6.1z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_4_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_6_">
+		<path fill="#A9CDA6" d="M35.5,14.6L35.5,14.6L35.5,14.6l-0.1,0.1c0,0-0.1,0-0.1,0l-0.2-0.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0
+			L35.5,14.6z"/>
+		<path fill="#A9CDA6" d="M36.7,14.3C36.7,14.3,36.7,14.3,36.7,14.3C36.7,14.3,36.7,14.3,36.7,14.3c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C36.9,13.9,36.7,14.3,36.7,14.3z"/>
+		<path fill="#A9CDA6" d="M36.7,14.3c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C36.6,14.4,36.7,14.4,36.7,14.3z"/>
+		<path fill="#A9CDA6" d="M37.7,13.9l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C37.4,14.1,37.5,13.9,37.7,13.9z"/>
+		<path fill="#A9CDA6" d="M38.7,14.4L38.7,14.4l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C38.6,14.3,38.6,14.3,38.7,14.4
+			L38.7,14.4L38.7,14.4z"/>
+		<path fill="#A9CDA6" d="M36,14.1l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0l-0.1-0.3v-0.1l0,0L36,14.1
+			C36,14.1,36,14.1,36,14.1z"/>
+		<path fill="#A9CDA6" d="M38,14.1L38,14.1L38,14.1l0.1,0.1L38,14.6c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L38,14.1
+			C37.9,14.1,38,14.1,38,14.1z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_3_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_5_">
+		<path fill="#A9CDA6" d="M33.8,11.6L33.8,11.6L33.8,11.6l-0.1,0.1c0,0-0.1,0-0.1,0l-0.2-0.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0
+			L33.8,11.6z"/>
+		<path fill="#A9CDA6" d="M34.9,11.3C34.9,11.3,34.9,11.3,34.9,11.3C34.9,11.3,34.9,11.3,34.9,11.3c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C35.2,10.9,34.9,11.3,34.9,11.3z"/>
+		<path fill="#A9CDA6" d="M34.9,11.3c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C34.9,11.4,34.9,11.4,34.9,11.3z"/>
+		<path fill="#A9CDA6" d="M36,10.9l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C35.6,11,35.8,10.8,36,10.9z"/>
+		<path fill="#A9CDA6" d="M37,11.4L37,11.4l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C36.8,11.3,36.9,11.3,37,11.4L37,11.4
+			L37,11.4z"/>
+		<path fill="#A9CDA6" d="M34.3,11.1l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0l-0.1-0.3v-0.1l0,0L34.3,11.1
+			C34.2,11,34.3,11.1,34.3,11.1z"/>
+		<path fill="#A9CDA6" d="M36.3,11.1L36.3,11.1L36.3,11.1l0.1,0.1l-0.1,0.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L36.3,11.1
+			C36.2,11.1,36.2,11,36.3,11.1z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_1_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_3_">
+		<path fill="#A9CDA6" d="M41.1,6.2L41.1,6.2L41.1,6.2L41,6.3c0,0-0.1,0-0.1,0l-0.2-0.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0L41.1,6.2z"/>
+		<path fill="#A9CDA6" d="M42.2,5.9C42.2,5.9,42.2,5.9,42.2,5.9C42.2,5.9,42.2,5.9,42.2,5.9C42.1,5.8,42,5.8,42,5.8
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C42.4,5.5,42.2,5.9,42.2,5.9z"/>
+		<path fill="#A9CDA6" d="M42.2,5.9c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C42.1,6.1,42.2,6,42.2,5.9z"/>
+		<path fill="#A9CDA6" d="M43.3,5.5L43,5.7c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C42.9,5.7,43,5.5,43.3,5.5z"/>
+		<path fill="#A9CDA6" d="M44.2,6L44.2,6l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1L44.1,6C44.1,6,44.1,5.9,44.2,6L44.2,6L44.2,6z"/>
+		<path fill="#A9CDA6" d="M41.6,5.8l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0l-0.1-0.3V5.8l0,0L41.6,5.8
+			C41.5,5.7,41.5,5.7,41.6,5.8z"/>
+		<path fill="#A9CDA6" d="M43.5,5.7L43.5,5.7L43.5,5.7l0.1,0.1l-0.1,0.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L43.5,5.7
+			C43.5,5.7,43.5,5.7,43.5,5.7z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_2_">
+		<path fill="#A9CDA6" d="M39.3,3.2L39.3,3.2L39.3,3.2l-0.1,0.1c0,0-0.1,0-0.1,0L39,3L39,3l0,0l0,0c0,0,0.1,0,0.1,0L39.3,3.2z"/>
+		<path fill="#A9CDA6" d="M40.4,2.9C40.4,2.9,40.4,2.9,40.4,2.9C40.4,2.9,40.4,2.9,40.4,2.9c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C40.7,2.5,40.4,2.9,40.4,2.9z"/>
+		<path fill="#A9CDA6" d="M40.4,2.9c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C40.4,3,40.4,3,40.4,2.9z"/>
+		<path fill="#A9CDA6" d="M41.5,2.5l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C41.1,2.7,41.3,2.5,41.5,2.5z"/>
+		<path fill="#A9CDA6" d="M42.5,3L42.5,3l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C42.3,2.9,42.4,2.9,42.5,3L42.5,3L42.5,3z"
+			/>
+		<path fill="#A9CDA6" d="M39.8,2.7l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0l-0.1-0.3V2.7l0,0L39.8,2.7
+			C39.8,2.7,39.8,2.7,39.8,2.7z"/>
+		<path fill="#A9CDA6" d="M41.8,2.7L41.8,2.7L41.8,2.7l0.1,0.1l-0.1,0.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L41.8,2.7
+			C41.7,2.7,41.7,2.7,41.8,2.7z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_7_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_9_">
+		<path fill="#A9CDA6" d="M41.3,36.4L41.3,36.4L41.3,36.4l-0.1,0.1c0,0-0.1,0-0.1,0L41,36.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0
+			L41.3,36.4z"/>
+		<path fill="#A9CDA6" d="M42.5,36.1C42.5,36.1,42.5,36.1,42.5,36.1C42.4,36.1,42.4,36.1,42.5,36.1c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C42.7,35.7,42.5,36.1,42.5,36.1z"/>
+		<path fill="#A9CDA6" d="M42.5,36.1c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C42.4,36.2,42.4,36.2,42.5,36.1z"/>
+		<path fill="#A9CDA6" d="M43.5,35.7l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C43.1,35.9,43.3,35.7,43.5,35.7z"/>
+		<path fill="#A9CDA6" d="M44.5,36.2L44.5,36.2l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C44.3,36.1,44.4,36.1,44.5,36.2
+			L44.5,36.2L44.5,36.2z"/>
+		<path fill="#A9CDA6" d="M41.8,35.9l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0L41.6,36v-0.1l0,0L41.8,35.9
+			C41.8,35.9,41.8,35.9,41.8,35.9z"/>
+		<path fill="#A9CDA6" d="M43.8,35.9L43.8,35.9L43.8,35.9l0.1,0.1l-0.1,0.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L43.8,35.9
+			C43.7,35.9,43.7,35.9,43.8,35.9z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_6_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_8_">
+		<path fill="#A9CDA6" d="M39.6,33.3L39.6,33.3L39.6,33.3l-0.1,0.1c0,0-0.1,0-0.1,0l-0.2-0.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0
+			L39.6,33.3z"/>
+		<path fill="#A9CDA6" d="M40.7,33.1C40.7,33.1,40.7,33.1,40.7,33.1C40.7,33.1,40.7,33,40.7,33.1c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C40.9,32.7,40.7,33.1,40.7,33.1z"/>
+		<path fill="#A9CDA6" d="M40.7,33.1c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C40.6,33.2,40.7,33.1,40.7,33.1z"/>
+		<path fill="#A9CDA6" d="M41.8,32.6l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C41.4,32.8,41.5,32.6,41.8,32.6z"/>
+		<path fill="#A9CDA6" d="M42.7,33.2L42.7,33.2l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C42.6,33.1,42.6,33.1,42.7,33.2
+			L42.7,33.2L42.7,33.2z"/>
+		<path fill="#A9CDA6" d="M40.1,32.9l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0L39.9,33v-0.1l0,0L40.1,32.9
+			C40,32.8,40,32.9,40.1,32.9z"/>
+		<path fill="#A9CDA6" d="M42,32.8L42,32.8L42,32.8l0.1,0.1L42,33.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L42,32.8
+			C42,32.9,42,32.8,42,32.8z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_10_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_12_">
+		<path fill="#A9CDA6" d="M28.3,47L28.3,47L28.3,47l-0.1,0.1c0,0-0.1,0-0.1,0L28,46.8l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0L28.3,47z"/>
+		<path fill="#A9CDA6" d="M29.4,46.7C29.4,46.7,29.4,46.7,29.4,46.7C29.4,46.7,29.4,46.7,29.4,46.7c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C29.7,46.3,29.4,46.7,29.4,46.7z"/>
+		<path fill="#A9CDA6" d="M29.4,46.7c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C29.4,46.8,29.4,46.8,29.4,46.7z"/>
+		<path fill="#A9CDA6" d="M30.5,46.3l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C30.1,46.5,30.3,46.3,30.5,46.3z"/>
+		<path fill="#A9CDA6" d="M31.5,46.8L31.5,46.8l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C31.3,46.7,31.4,46.7,31.5,46.8
+			L31.5,46.8L31.5,46.8z"/>
+		<path fill="#A9CDA6" d="M28.8,46.5l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0l-0.1-0.3v-0.1l0,0L28.8,46.5
+			C28.7,46.5,28.8,46.5,28.8,46.5z"/>
+		<path fill="#A9CDA6" d="M30.8,46.5L30.8,46.5L30.8,46.5l0.1,0.1L30.7,47c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L30.8,46.5
+			C30.7,46.5,30.7,46.5,30.8,46.5z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_9_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_11_">
+		<path fill="#A9CDA6" d="M26.5,43.9L26.5,43.9L26.5,43.9l-0.1,0.1c0,0-0.1,0-0.1,0l-0.2-0.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0
+			L26.5,43.9z"/>
+		<path fill="#A9CDA6" d="M27.7,43.7C27.7,43.7,27.7,43.7,27.7,43.7C27.7,43.7,27.6,43.6,27.7,43.7c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C27.9,43.3,27.7,43.7,27.7,43.7z"/>
+		<path fill="#A9CDA6" d="M27.7,43.7c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C27.6,43.8,27.6,43.7,27.7,43.7z"/>
+		<path fill="#A9CDA6" d="M28.7,43.2l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C28.4,43.4,28.5,43.2,28.7,43.2z"/>
+		<path fill="#A9CDA6" d="M29.7,43.8L29.7,43.8L29.5,44c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C29.6,43.7,29.6,43.7,29.7,43.8
+			L29.7,43.8L29.7,43.8z"/>
+		<path fill="#A9CDA6" d="M27,43.5l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0l-0.1-0.3v-0.1l0,0L27,43.5
+			C27,43.4,27,43.5,27,43.5z"/>
+		<path fill="#A9CDA6" d="M29,43.4L29,43.4L29,43.4l0.1,0.1L29,43.9c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L29,43.4
+			C28.9,43.5,29,43.4,29,43.4z"/>
+	</g>
+</g>
+<g id="roughgrass_x5F_bd_12_" enable-background="new    ">
+	<g id="RoughGrass_x5F_FC_14_">
+		<path fill="#A9CDA6" d="M2.7,45.3L2.7,45.3L2.7,45.3l-0.1,0.1c0,0-0.1,0-0.1,0l-0.2-0.2l0-0.1l0,0l0,0c0,0,0.1,0,0.1,0L2.7,45.3z"
+			/>
+		<path fill="#A9CDA6" d="M3.9,45.1C3.9,45.1,3.9,45.1,3.9,45.1C3.9,45.1,3.9,45.1,3.9,45.1c-0.1-0.1-0.2-0.2-0.2-0.2
+			c0-0.1,0.1-0.3,0.1-0.3c0-0.1,0-0.4,0-0.4C4.1,44.7,3.9,45.1,3.9,45.1z"/>
+		<path fill="#A9CDA6" d="M3.9,45.1c0,0,0.1,0.1,0.1,0.2l-0.1,0l-0.1,0C3.8,45.2,3.9,45.2,3.9,45.1z"/>
+		<path fill="#A9CDA6" d="M4.9,44.6l-0.2,0.2c0,0-0.1,0.1-0.2,0.3l0,0.1c0,0-0.1,0-0.2,0c0,0,0.1-0.1,0.1-0.3c0,0,0-0.5,0.3-0.6
+			c0,0,0.2-0.1,0.1,0c0,0-0.1,0.2-0.2,0.4C4.6,44.8,4.7,44.6,4.9,44.6z"/>
+		<path fill="#A9CDA6" d="M5.9,45.2L5.9,45.2l-0.2,0.3c0,0-0.1,0-0.1,0l0,0l0,0l0-0.1l0.2-0.2C5.8,45.1,5.8,45.1,5.9,45.2L5.9,45.2
+			L5.9,45.2z"/>
+		<path fill="#A9CDA6" d="M3.2,44.9l0.1,0.3l0,0.1l0,0c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0L3.1,45v-0.1l0,0L3.2,44.9
+			C3.2,44.8,3.2,44.9,3.2,44.9z"/>
+		<path fill="#A9CDA6" d="M5.2,44.9L5.2,44.9L5.2,44.9L5.3,45l-0.1,0.3c0,0,0,0.1-0.1,0c0,0,0,0-0.1,0l0,0l0-0.1L5.2,44.9
+			C5.1,44.9,5.2,44.8,5.2,44.9z"/>
+	</g>
+</g>
+</svg>
