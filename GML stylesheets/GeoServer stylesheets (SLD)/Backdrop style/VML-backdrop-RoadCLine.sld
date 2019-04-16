@@ -2650,7 +2650,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <Label>
               <ogc:Function name="strConcat">
                   <ogc:PropertyName>roadName				</ogc:PropertyName>
-                </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
             </Label>
@@ -2664,7 +2663,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </LinePlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>7</Radius>
+              <Radius>1.5</Radius>
               <Fill>
                 <CssParameter name="fill">#FAFAFA</CssParameter>
                 <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -2747,12 +2746,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 		</ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>1500</MaxScaleDenominator>
+          <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer 		uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
               <ogc:Function name="strConcat">
                   <ogc:PropertyName>roadName				</ogc:PropertyName>
-                </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
             </Label>
@@ -2766,7 +2764,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </LinePlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>7</Radius>
+              <Radius>3</Radius>
               <Fill>
                 <CssParameter name="fill">#FAFAFA</CssParameter>
                 <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -2830,13 +2828,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <Label>
               <ogc:Function name="strConcat">
                   <ogc:PropertyName>roadNumber				</ogc:PropertyName>
-                </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">10</CssParameter>
+              <CssParameter name="font-size">12</CssParameter>
             </Font>
             <LabelPlacement>
               <LinePlacement>
@@ -2844,7 +2841,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </LinePlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>7</Radius>
+              <Radius>1.5</Radius>
               <Fill>
                 <CssParameter name="fill">#FAFAFA</CssParameter>
                 <CssParameter name="fill-opacity">0.8</CssParameter>
@@ -2908,7 +2905,6 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <Label>
               <ogc:Function name="strConcat">
                   <ogc:PropertyName>roadNumber				</ogc:PropertyName>
-                </ogc:Function>
                 <ogc:Literal>&#160;</ogc:Literal>
               </ogc:Function>
             </Label>
@@ -2922,7 +2918,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </LinePlacement>
             </LabelPlacement>
             <Halo>
-              <Radius>7</Radius>
+              <Radius>3</Radius>
               <Fill>
                 <CssParameter name="fill">#FAFAFA</CssParameter>
                 <CssParameter name="fill-opacity">0.8</CssParameter>
