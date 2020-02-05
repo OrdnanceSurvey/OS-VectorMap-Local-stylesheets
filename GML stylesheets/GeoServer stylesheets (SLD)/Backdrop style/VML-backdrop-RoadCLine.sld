@@ -817,7 +817,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#A3D2A9
+              <CssParameter name="stroke">#63C8DD
 </CssParameter>
               <CssParameter name="stroke-width">15</CssParameter>
               <CssParameter name="stroke-linecap">"round"</CssParameter>
@@ -1637,7 +1637,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#A3D2A9
+              <CssParameter name="stroke">#63C8DD
 </CssParameter>
               <CssParameter name="stroke-width">15</CssParameter>
               <CssParameter name="stroke-linecap">"round"</CssParameter>
@@ -2457,7 +2457,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#A3D2A9
+              <CssParameter name="stroke">#63C8DD
 </CssParameter>
               <CssParameter name="stroke-width">15</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
@@ -2528,7 +2528,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#A3D2A9
+              <CssParameter name="stroke">#63C8DD
 </CssParameter>
               <CssParameter name="stroke-width">15</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
