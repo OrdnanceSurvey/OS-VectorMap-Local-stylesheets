@@ -1,4 +1,4 @@
-# Some earlier versions of QGIS are not processing boolean files correctly which results in the QML files for road and rail not working. QGIS versions 3.8 and above seem to be ok but if you are using an earlier version please use the RoadCLine_1 and RailCLine_1 QML files.
+## Some earlier versions of QGIS are not processing boolean files correctly which results in the QML files for road and rail not working. QGIS versions 3.8 and above seem to be ok but if you are using an earlier version please use the RoadCLine_1 and RailCLine_1 QML files.
 
 # OS VectorMap Local Full Colour style
 
