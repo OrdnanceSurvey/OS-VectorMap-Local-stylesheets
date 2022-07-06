@@ -1,0 +1,76 @@
+{
+	"version": 8,
+	"name": "OS VectorMap Local",
+	"sources": {
+		"vml_gb": {
+            "type": "vector",
+            "url": "https://labs.os.uk/tiles/vector/vectormap-local/tiles.json"
+		}
+	},
+	"sprite": "https://labs.os.uk/tiles/styles/vectormap-local-fullcolour/sprites",
+	"glyphs": "https://labs.os.uk/tiles/fonts/{fontstack}/{range}.pbf",
+	"layers": [{
+		"id": "background",
+		"type": "background",
+		"layout": {
+			"visibility": "none"
+		}
+	}, {
+		"id": "area",
+		"type": "fill",
+		"source": "vml_gb",
+		"source-layer": "area",
+		"layout": {},
+		"paint": {
+			"fill-color": "#000000",
+			"fill-opacity": 0.3
+		}
+	}, {
+		"id": "line",
+		"type": "line",
+		"source": "vml_gb",
+		"source-layer": "line",
+		"layout": {},
+		"paint": {
+			"line-color": "#000000"
+		}
+	}, {
+		"id": "vector_map_point",
+		"type": "circle",
+		"source": "vml_gb",
+		"source-layer": "vector_map_point",
+		"layout": {},
+		"paint": {
+			"circle-color": "#000000",
+			"circle-radius": 4
+		}
+	}, {
+		"id": "road_cline",
+		"type": "line",
+		"source": "vml_gb",
+		"source-layer": "road_cline",
+		"layout": {},
+		"paint": {
+			"line-color": "#CC0000"
+		}
+	}, {
+		"id": "rail_cline",
+		"type": "line",
+		"source": "vml_gb",
+		"source-layer": "rail_cline",
+		"layout": {},
+		"paint": {
+			"line-color": "#0000CC"
+		}
+	}, {
+		"id": "text",
+		"type": "circle",
+		"source": "vml_gb",
+		"source-layer": "text",
+		"layout": {},
+		"paint": {
+			"circle-color": "#CC0000",
+			"circle-radius": 4
+		}
+	}]
+}

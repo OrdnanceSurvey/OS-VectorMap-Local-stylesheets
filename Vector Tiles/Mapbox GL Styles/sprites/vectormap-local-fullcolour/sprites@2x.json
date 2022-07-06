@@ -1,0 +1,387 @@
+{
+  "AirTrans": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 1440,
+    "y": 720
+  },
+  "Airport": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 1559,
+    "y": 720
+  },
+  "Education": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 1678,
+    "y": 720
+  },
+  "Heritage": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 1797,
+    "y": 720
+  },
+  "Hospital": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 0,
+    "y": 960
+  },
+  "LRT": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 119,
+    "y": 960
+  },
+  "LRT_UG": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 262,
+    "x": 238,
+    "y": 960
+  },
+  "Leisure": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 500,
+    "y": 960
+  },
+  "MediCare": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 619,
+    "y": 960
+  },
+  "OG": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 738,
+    "y": 960
+  },
+  "OG_LRT": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 262,
+    "x": 857,
+    "y": 960
+  },
+  "OG_UG": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 262,
+    "x": 1119,
+    "y": 960
+  },
+  "Police": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 1381,
+    "y": 960
+  },
+  "RoadTrans": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 1500,
+    "y": 960
+  },
+  "Services": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 1619,
+    "y": 960
+  },
+  "UG": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 1738,
+    "y": 960
+  },
+  "WaterTrans": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 0,
+    "y": 1079
+  },
+  "Worship": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 119,
+    "y": 1079
+  },
+  "cliff1": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 238,
+    "y": 1079
+  },
+  "cliff2": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 357,
+    "y": 1079
+  },
+  "fillBoulders": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 0,
+    "y": 0
+  },
+  "fillBouldersAndHeath": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 240,
+    "y": 0
+  },
+  "fillBouldersAndHeathAndRoughGrassland": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 0,
+    "y": 240
+  },
+  "fillBouldersAndHeathAndScrub": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 240,
+    "y": 240
+  },
+  "fillBouldersAndRoughGrasslandAndScrub": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 480,
+    "y": 0
+  },
+  "fillConiferousTrees": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 720,
+    "y": 0
+  },
+  "fillConiferousTreesAndScrub": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 480,
+    "y": 240
+  },
+  "fillHeath": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 720,
+    "y": 240
+  },
+  "fillHeathAndMarsh": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 0,
+    "y": 480
+  },
+  "fillHeathAndScrub": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 240,
+    "y": 480
+  },
+  "fillHeathAndScrubAndRoughGrassland": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 480,
+    "y": 480
+  },
+  "fillMarsh": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 720,
+    "y": 480
+  },
+  "fillMarshAndHeathAndScrub": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 0,
+    "y": 720
+  },
+  "fillMarshAndRoughGrasslandAndScrub": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 240,
+    "y": 720
+  },
+  "fillNonconiferousTrees": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 480,
+    "y": 720
+  },
+  "fillNonconiferousTreesAndConiferousTrees": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 720,
+    "y": 720
+  },
+  "fillNonconiferousTreesAndScrub": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 960,
+    "y": 0
+  },
+  "fillOrchard": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1200,
+    "y": 0
+  },
+  "fillReeds": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1440,
+    "y": 0
+  },
+  "fillRock": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1680,
+    "y": 0
+  },
+  "fillRoughGrassland": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 960,
+    "y": 240
+  },
+  "fillRoughGrasslandAndBoulders": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1200,
+    "y": 240
+  },
+  "fillRoughGrasslandAndHeath": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1440,
+    "y": 240
+  },
+  "fillRoughGrasslandAndMarsh": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1680,
+    "y": 240
+  },
+  "fillRoughGrasslandAndScrub": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 960,
+    "y": 480
+  },
+  "fillScree": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1200,
+    "y": 480
+  },
+  "fillScrub": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1440,
+    "y": 480
+  },
+  "fillScrubAndBoulders": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1680,
+    "y": 480
+  },
+  "fillScrubAndConiferousTreesAndNonconiferousTrees": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 960,
+    "y": 720
+  },
+  "fillScrubAndMarsh": {
+    "height": 240,
+    "pixelRatio": 2,
+    "width": 240,
+    "x": 1200,
+    "y": 720
+  },
+  "flowArrowSymbol": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 476,
+    "y": 1079
+  },
+  "heritageSiteOfSymbol": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 595,
+    "y": 1079
+  },
+  "pylon": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 714,
+    "y": 1079
+  },
+  "slope": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 833,
+    "y": 1079
+  },
+  "triangulationStationSymbol": {
+    "height": 119,
+    "pixelRatio": 2,
+    "width": 119,
+    "x": 952,
+    "y": 1079
+  }
+}
