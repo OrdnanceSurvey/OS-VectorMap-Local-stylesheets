@@ -1,0 +1,3491 @@
+{
+  "version": 8,
+  "name": "OS VectorMap Local",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "vml_gb": {
+      "type": "vector",
+      "tiles": [
+        "https://labs.os.uk/tiles/vector/vectormap-local/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 9,
+      "maxzoom": 14
+    }
+  },
+  "sprite": "https://labs.os.uk/tiles/styles/vectormap-local-fullcolour/sprites",
+  "glyphs": "https://labs.os.uk/tiles/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "layout": {"visibility": "none"}
+    },
+    {
+      "id": "area footbridge",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15304]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 252, 1)",
+        "fill-opacity": 1,
+        "fill-outline-color": "#646464"
+      }
+    },
+    {
+      "id": "area railway bridge",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15303]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 252, 1)",
+        "fill-opacity": 1,
+        "fill-outline-color": "#646464"
+      }
+    },
+    {
+      "id": "area aqueduct",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15601]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(213, 244, 248, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area inland water polygon",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15609]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(213, 244, 248, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area sea polygon",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15608]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(213, 244, 248, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area custom landform polygon",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15550]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(154, 154, 144, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area mud",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15538]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(245, 240, 225, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area sand",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15537]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 222, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shingle and mud",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15536]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(245, 240, 225, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shingle and sand",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15535]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 222, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shingle",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15534]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area boulders and mud fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15533]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(245, 240, 225, 1)",
+        "fill-opacity": 1,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "area boulders and mud pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15533]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(245, 240, 225, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillBoulders",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area boulders and sand fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15532]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 222, 1)",
+        "fill-opacity": 1,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "area boulders and sand pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15532]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 222, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillBoulders",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area boulders and shingle fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15531]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "area boulders and shingle pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15531]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillBoulders",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area boulders fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15530]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "area boulders pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15530]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillBoulders",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area inland rock",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15529]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area reeds fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15528]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(213, 244, 248, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area reeds pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15528]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(213, 244, 248, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillReeds",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area marsh and unimproved grass fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15527]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area marsh and unimproved grass pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15527]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillRoughGrasslandAndMarsh",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area marsh fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15526]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area marsh patern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15526]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillMarsh",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area unimproved grass and sand fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15525]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 222, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area unimproved grass and sand pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15525]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 222, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillRoughGrassland",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area unimproved grass and shingle fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15524]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area unimproved grass and shingle pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15524]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillRoughGrassland",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area unimproved grass and boulders fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15523]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area unimproved grass and boulders pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15523]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillRoughGrasslandAndBoulders",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area unimproved grass fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15522]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area unimproved grass pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15522]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillRoughGrassland",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area heathland and marsh fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15521]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area heathland and marsh pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15521]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillHeathAndMarsh",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area heathland and boulders fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15520]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area heathland and boulders pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15520]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillBouldersAndHeath",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area heathland and unimproved grass and boulders fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15519]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area heathland and unimproved grass and boulders pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15519]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillBouldersAndHeathAndRoughGrassland",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area heathland and unimproved grass fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15518]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area heathland and unimproved grass pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15518]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillRoughGrasslandAndHeath",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area heathland fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15517]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area heathland pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15517]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillHeath",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub and boulders fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15516]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub and boulders pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15516]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillScrubAndBoulders",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub and heathland and boulders fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15515]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub and heathland and boulders pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15515]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillBouldersAndHeathAndScrub",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub and heathland and unimproved grass fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15514]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub and heathland and unimproved grass pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15514]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillHeathAndScrubAndRoughGrassland",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub and marsh and unimproved grass fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15513]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub and marsh and unimproved grass pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15513]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillMarshAndRoughGrasslandAndScrub",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub and marsh and heath fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15512]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub and marsh and heath pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15512]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillMarshAndHeathAndScrub",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub and marsh fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15511]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub and marsh pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15511]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillScrubAndMarsh",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub and unimproved grass and boulders fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15510]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub and unimproved grass and boulders pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15510]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillBouldersAndRoughGrasslandAndScrub",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub and unimproved grass fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15509]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub and unimproved grass pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15509]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillRoughGrasslandAndScrub",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub and heathland fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15508]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub and heathland pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15508]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillHeathAndScrub",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area shrub fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15507]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area shrub pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15507]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillScrub",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area orchard fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15506]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 0.3}
+    },
+    {
+      "id": "area orchard pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15506]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-opacity": 0.3,
+        "fill-pattern": "fillOrchard",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area broad leafed woodland and shrub fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15505]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 240, 206, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area broad leafed woodland and shrub pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15505]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillNonconiferousTreesAndScrub",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area broad leafed woodland fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15504]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 240, 206, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area broad leafed woodland pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15504]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillNonconiferousTrees",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area mixed woodland and shrub fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15503]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 240, 206, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area mixed woodland and shrub pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15503]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillScrubAndConiferousTreesAndNonconiferousTrees",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area mixed woodland fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15502]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-opacity": 1,
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area mixed woodland pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15502]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillNonconiferousTreesAndConiferousTrees",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area coniferous woodland and shrub fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15501]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 240, 206, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area coniferous woodland and shrub pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15501]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillConiferousTreesAndScrub",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area coniferous woodland fill",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15500]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-opacity": 1,
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area coniferous woodland pattern",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15500]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-opacity": 1,
+        "fill-pattern": "fillConiferousTrees",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "area refuse or slag heap",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15442]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(242, 240, 241, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area urban extent",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15030]],
+      "layout": {"visibility": "none"},
+      "paint": {"fill-color": "rgba(33, 239, 19, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area glasshouse polygon",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15016]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(33, 19, 239, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "area building polygon",
+      "type": "fill",
+      "source": "vml_gb",
+      "source-layer": "area",
+      "filter": ["all", ["==", "feature_code", 15014]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(254, 222, 183, 1)", "fill-opacity": 1}
+    },
+    {
+      "id": "line top of cliff",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15562]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(224, 15, 15, 1)", "line-pattern": "cliff2"}
+    },
+    {
+      "id": "line top of large slopes",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15561]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(224, 15, 15, 1)",
+        "line-pattern": "slope",
+        "line-width": 6
+      }
+    },
+    {
+      "id": "line ridge or rock line",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15410]],
+      "layout": {"visibility": "none"},
+      "paint": {"line-color": "rgba(224, 15, 15, 1)"}
+    },
+    {
+      "id": "line district or lb boundary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15201]],
+      "layout": {"visibility": "none"},
+      "paint": {"line-color": "rgba(224, 15, 15, 1)"}
+    },
+    {
+      "id": "line overhead peck detail",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15101]],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {
+        "line-color": "rgba(115, 103, 103, 1)",
+        "line-width": 1.6,
+        "line-dasharray": [10, 7]
+      }
+    },
+    {
+      "id": "line mean low water",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15605]],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(0, 169, 202, 1)", "line-width": 1}
+    },
+    {
+      "id": "line mean high water",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15604]],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(0, 169, 202, 1)", "line-width": 3.2}
+    },
+    {
+      "id": "line water feature",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15600]],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {"line-color": "rgba(0, 169, 202, 1)", "line-width": 1.6}
+    },
+    {
+      "id": "line top of standard slopes",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15560]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(224, 15, 15, 1)",
+        "line-pattern": "slope",
+        "line-width": 5
+      }
+    },
+    {
+      "id": "line vegetation or landform limit",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15540]],
+      "layout": {"visibility": "none"},
+      "paint": {"line-color": "rgba(224, 15, 15, 1)"}
+    },
+    {
+      "id": "line index contour line",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15401]],
+      "layout": {"visibility": "none"},
+      "paint": {"line-color": "rgba(224, 15, 15, 1)"}
+    },
+    {
+      "id": "line standard contour line",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15400]],
+      "layout": {"visibility": "none"},
+      "paint": {"line-color": "rgba(224, 15, 15, 1)"}
+    },
+    {
+      "id": "line parliament boundary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15203]],
+      "layout": {"visibility": "none"},
+      "paint": {"line-color": "rgba(224, 15, 15, 1)"}
+    },
+    {
+      "id": "line county, region or island boundary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15202]],
+      "layout": {"visibility": "none"},
+      "paint": {"line-color": "rgba(224, 15, 15, 1)"}
+    },
+    {
+      "id": "line parish or community boundary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15200]],
+      "layout": {"visibility": "none"},
+      "paint": {"line-color": "rgba(224, 15, 15, 1)"}
+    },
+    {
+      "id": "line electricity transmission line",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15102]],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {
+        "line-color": "rgba(178, 184, 173, 1)",
+        "line-width": 1.2,
+        "line-dasharray": [10, 5]
+      }
+    },
+    {
+      "id": "line tunnel alignments",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15100]],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {
+        "line-color": "rgba(80, 80, 80, 1)",
+        "line-width": 1.4,
+        "line-dasharray": [4, 3]
+      }
+    },
+    {
+      "id": "line rural general pecked detail",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15044]],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {
+        "line-color": "rgba(80, 80, 80, 1)",
+        "line-width": 1.4,
+        "line-dasharray": [3, 2.5]
+      }
+    },
+    {
+      "id": "line urban general pecked detail",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15033]],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {
+        "line-color": "rgba(80, 80, 80, 1)",
+        "line-width": 1,
+        "line-dasharray": [3, 2.5]
+      }
+    },
+    {
+      "id": "line rural general line detail",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15032]],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1.4}
+    },
+    {
+      "id": "line urban general line detail",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15031]],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1}
+    },
+    {
+      "id": "line glasshouse outline",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15013]],
+      "layout": {"visibility": "visible", "line-cap": "square"},
+      "paint": {"line-color": "rgba(121, 159, 121, 1)", "line-width": 1.6}
+    },
+    {
+      "id": "line important building outline",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15011]],
+      "layout": {"visibility": "visible", "line-cap": "square"},
+      "paint": {"line-color": "rgba(72, 64, 80, 1)", "line-width": 2.8}
+    },
+    {
+      "id": "line building outline",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "line",
+      "filter": ["all", ["==", "feature_code", 15010]],
+      "layout": {"visibility": "visible", "line-cap": "square"},
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1.4}
+    },
+    {
+      "id": "railcline railway tunnels",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "rail_cline",
+      "filter": ["all", ["==", "in_tunnel", true]],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "bevel",
+        "line-cap": "square"
+      },
+      "paint": {
+        "line-color": "rgba(100, 100, 100, 1)",
+        "line-width": 1,
+        "line-dasharray": [10, 7]
+      }
+    },
+    {
+      "id": "railcline multi track railway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "rail_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15300],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(100, 100, 100, 1)", "line-width": 3.2}
+    },
+    {
+      "id": "railcline narrow gauge railway peck",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "rail_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15302],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {
+        "line-color": "rgba(100, 100, 100, 1)",
+        "line-width": 10,
+        "line-dasharray": [0.1, 2]
+      }
+    },
+    {
+      "id": "railcline narrow gauge railway line",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "rail_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15302],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {
+        "line-color": "rgba(100, 100, 100, 1)",
+        "line-width": 1.8,
+        "line-dasharray": [1.8]
+      }
+    },
+    {
+      "id": "railcline single track railway or siding",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "rail_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15301],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "paint": {
+        "line-color": "rgba(100, 100, 100, 1)",
+        "line-width": 1.8,
+        "line-dasharray": []
+      }
+    },
+    {
+      "id": "roadcline 0 casing enclosed traffic area",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15795],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "none",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing guided busway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15793],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing local road shared use",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15790],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing restricted local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15782],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 11}
+    },
+    {
+      "id": "roadcline 0 casing local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15780],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing secondary access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15770],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 11}
+    },
+    {
+      "id": "roadcline 0 casing local road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15760],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing minor road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15750],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing b road primary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15740],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing b road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15743],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing a road trunk",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15720],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing a road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15729],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing primary trunk road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15726],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing primary road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15723],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 casing motorway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15710],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 0 fill enclosed traffic area",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15795],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "none",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 cl guided busway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15793],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1}
+    },
+    {
+      "id": "roadcline 0 fill guided busway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15793],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill local road shared use",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15790],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill restricted local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15782],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+    },
+    {
+      "id": "roadcline 0 fill local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15780],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill secondary access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15770],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+    },
+    {
+      "id": "roadcline 0 fill local road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15760],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill minor road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15750],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 243, 181, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill b road primary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15740],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill b road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15743],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill a road trunk",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15720],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "#ff879e", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill a road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15729],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 135, 158, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill primary trunk road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15726],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill primary road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15723],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 0 fill motorway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15710],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(6, 177, 202, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 casing enclosed traffic area",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15795],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "none",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing guided busway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15793],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing local road shared use",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15790],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing restricted local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15782],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 11}
+    },
+    {
+      "id": "roadcline 1 casing local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15780],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing secondary access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15770],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 11}
+    },
+    {
+      "id": "roadcline 1 casing local road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15760],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing minor road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15750],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing b road primary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15740],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing b road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15743],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round",
+        "line-cap": "butt"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing a road trunk",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15720],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing a road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15729],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing primary trunk road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15726],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing primary road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15723],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 casing motorway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15710],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 1 fill enclosed traffic area",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15795],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "none",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 cl guided busway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15793],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1}
+    },
+    {
+      "id": "roadcline 1 fill guided busway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15793],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill local road shared use",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15790],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill restricted local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15782],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+    },
+    {
+      "id": "roadcline 1 fill local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15780],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill secondary access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15770],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+    },
+    {
+      "id": "roadcline 1 fill local road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15760],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill minor road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15750],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 243, 181, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill b road primary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15740],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill b road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15743],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill a road trunk",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15720],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "#ff879e", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill a road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15729],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 135, 158, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill primary trunk road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15726],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill primary road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15723],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 1 fill motorway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15710],
+        ["==", "draw_level", 1],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(6, 177, 202, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 casing enclosed traffic area",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15795],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "none",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing guided busway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15793],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing local road shared use",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15790],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing restricted local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15782],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 11}
+    },
+    {
+      "id": "roadcline 2 casing local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15780],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing secondary access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15770],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 11}
+    },
+    {
+      "id": "roadcline 2 casing local road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15760],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing minor road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15750],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing b road primary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15740],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing b road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15743],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round",
+        "line-cap": "butt"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing a road trunk",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15720],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing a road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15729],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing primary trunk road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15726],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing primary road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15723],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 casing motorway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15710],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 2 fill enclosed traffic area",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15795],
+        ["==", "draw_level", 0],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "none",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 cl guided busway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15793],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1}
+    },
+    {
+      "id": "roadcline 2 fill guided busway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15793],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill local road shared use",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15790],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill restricted local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15782],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+    },
+    {
+      "id": "roadcline 2 fill local access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15780],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill secondary access road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15770],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+    },
+    {
+      "id": "roadcline 2 fill local road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15760],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill minor road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15750],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 243, 181, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill b road primary",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15740],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill b road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15743],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill a road trunk",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15720],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "#ff879e", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill a road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15729],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(255, 135, 158, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill primary trunk road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15726],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill primary road",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15723],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 2 fill motorway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15710],
+        ["==", "draw_level", 2],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(6, 177, 202, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline 3 casing motorway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15710],
+        ["==", "draw_level", 3],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 16}
+    },
+    {
+      "id": "roadcline 3 fill motorway",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": [
+        "all",
+        ["==", "feature_code", 15710],
+        ["==", "draw_level", 3],
+        ["==", "in_tunnel", false]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {"line-color": "rgba(6, 177, 202, 1)", "line-width": 12}
+    },
+    {
+      "id": "roadcline road tunnels",
+      "type": "line",
+      "source": "vml_gb",
+      "source-layer": "road_cline",
+      "filter": ["all", ["==", "in_tunnel", true]],
+      "paint": {
+        "line-color": "rgba(80, 80, 80, 1)",
+        "line-width": 1,
+        "line-dasharray": [2, 2]
+      }
+    },
+    {
+      "id": "text boundary text",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "filter": ["all", ["==", "feature_code", 15210]],
+      "layout": {
+        "visibility": "none",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Italic"],
+        "text-allow-overlap": false,
+        "text-keep-upright": true,
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(26, 26, 26, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text spot height label",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "filter": ["all", ["==", "feature_code", 15404]],
+      "layout": {
+        "visibility": "visible",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Regular"],
+        "text-allow-overlap": false,
+        "text-keep-upright": true,
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(157, 113, 51, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text standard contour label",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "filter": ["all", ["==", "feature_code", 15409]],
+      "layout": {
+        "visibility": "none",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Regular"],
+        "text-allow-overlap": false,
+        "text-keep-upright": true,
+        "text-rotate": [
+          "-",
+          360,
+          ["/", ["get", "text_rendering_orientation"], 10]
+        ],
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(224, 148, 94, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text index contour label",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "filter": ["all", ["==", "feature_code", 15403]],
+      "layout": {
+        "visibility": "none",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Bold"],
+        "text-allow-overlap": false,
+        "text-keep-upright": true,
+        "text-rotate": [
+          "-",
+          360,
+          ["/", ["get", "text_rendering_orientation"], 10]
+        ],
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(224, 148, 94, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text antiquity building name",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "filter": ["all", ["==", "feature_code", 15121]],
+      "layout": {
+        "visibility": "visible",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Italic"],
+        "text-allow-overlap": true,
+        "text-keep-upright": true,
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(0, 0, 0, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text antiquity miscellaneous name",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "filter": ["all", ["==", "feature_code", 15122]],
+      "layout": {
+        "visibility": "visible",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Italic"],
+        "text-allow-overlap": true,
+        "text-keep-upright": true,
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(0, 0, 0, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text miscellaneous name",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "filter": ["all", ["==", "feature_code", 15112]],
+      "layout": {
+        "visibility": "visible",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Regular"],
+        "text-allow-overlap": true,
+        "text-keep-upright": true,
+        "text-rotate": [
+          "-",
+          360,
+          ["/", ["get", "text_rendering_orientation"], 10]
+        ],
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(0, 0, 0, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text water name",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "filter": ["all", ["==", "feature_code", 15603]],
+      "layout": {
+        "visibility": "visible",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Regular"],
+        "text-allow-overlap": true,
+        "text-keep-upright": true,
+        "text-rotate": [
+          "-",
+          360,
+          ["/", ["get", "text_rendering_orientation"], 10]
+        ],
+        "icon-rotation-alignment": "map",
+        "icon-rotate": 0,
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(0, 154, 207, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text building name",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "filter": ["all", ["==", "feature_code", 15017]],
+      "layout": {
+        "visibility": "visible",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Regular"],
+        "text-allow-overlap": true,
+        "text-keep-upright": true,
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(0, 0, 0, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text important building name",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "maxzoom": 24,
+      "filter": ["all", ["==", "feature_code", 15015]],
+      "layout": {
+        "visibility": "visible",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Bold"],
+        "text-allow-overlap": true,
+        "text-keep-upright": true,
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(72, 64, 60, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "text road names",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "text",
+      "minzoom": 15,
+      "maxzoom": 24,
+      "filter": [
+        "any",
+        ["==", "feature_code", 15711],
+        ["==", "feature_code", 15712],
+        ["==", "feature_code", 15721],
+        ["==", "feature_code", 15722],
+        ["==", "feature_code", 15724],
+        ["==", "feature_code", 15725],
+        ["==", "feature_code", 15727],
+        ["==", "feature_code", 15728],
+        ["==", "feature_code", 15730],
+        ["==", "feature_code", 15731],
+        ["==", "feature_code", 15741],
+        ["==", "feature_code", 15742],
+        ["==", "feature_code", 15744],
+        ["==", "feature_code", 15745],
+        ["==", "feature_code", 15751],
+        ["==", "feature_code", 15761],
+        ["==", "feature_code", 15771],
+        ["==", "feature_code", 15791],
+        ["==", "feature_code", 15781],
+        ["==", "feature_code", 15783],
+        ["==", "feature_code", 15794]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-font": ["Source Sans Pro Regular"],
+        "text-allow-overlap": true,
+        "text-keep-upright": true,
+        "text-rotate": [
+          "-",
+          360,
+          ["/", ["get", "text_rendering_orientation"], 10]
+        ],
+        "symbol-avoid-edges": true,
+        "text-size": ["/", ["get", "text_rendering_height"], 1.1]
+      },
+      "paint": {
+        "text-color": "rgba(0, 0, 0, 1)",
+        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "icon-opacity": 0,
+        "icon-halo-width": 0.12,
+        "icon-color": "rgba(249, 7, 7, 1)",
+        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-width": 2,
+        "text-opacity": 1,
+        "text-halo-blur": 0.7,
+        "text-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "vectormappoint large flow arrow",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15611]],
+      "layout": {
+        "icon-size": 0.4,
+        "icon-rotate": ["-", 90, ["/", ["get", "orientation"], 10]],
+        "icon-padding": ["interpolate", ["linear"], ["zoom"], 6, 2, 10, 2],
+        "icon-rotation-alignment": "map",
+        "icon-image": "flowArrowSymbol"
+      }
+    },
+    {
+      "id": "vectormappoint standard flow arrow",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15610]],
+      "layout": {
+        "icon-image": "flowArrowSymbol",
+        "icon-rotate": ["-", 90, ["/", ["get", "orientation"], 10]],
+        "icon-size": 0.3
+      }
+    },
+    {
+      "id": "vectormappoint point feature water1",
+      "type": "circle",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15606]],
+      "paint": {"circle-color": "rgba(0, 154, 207, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "vectormappoint triangulation station",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15408]],
+      "layout": {
+        "icon-image": "triangulationStationSymbol",
+        "icon-size": 0.6,
+        "text-size": 8
+      }
+    },
+    {
+      "id": "vectormappoint air height position",
+      "type": "circle",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15406]],
+      "paint": {"circle-color": "rgba(157, 113, 51, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "vectormappoint spot height position",
+      "type": "circle",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15405]],
+      "paint": {"circle-color": "rgba(157, 113, 51, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "vectormappoint boundary point",
+      "type": "circle",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15211]],
+      "paint": {
+        "circle-color": "rgba(255, 255, 255, 1)",
+        "circle-radius": 2,
+        "circle-stroke-width": 1
+      }
+    },
+    {
+      "id": "vectormappoint antiquity site",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15120]],
+      "layout": {
+        "icon-image": "heritageSiteOfSymbol",
+        "visibility": "visible",
+        "icon-size": 0.6,
+        "text-size": 8
+      }
+    },
+    {
+      "id": "vectormappoint point feature1",
+      "type": "circle",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15110]],
+      "paint": {"circle-radius": 2}
+    },
+    {
+      "id": "vectormappoint pylon",
+      "type": "symbol",
+      "source": "vml_gb",
+      "source-layer": "vector_map_point",
+      "filter": ["all", ["==", "feature_code", 15104]],
+      "layout": {
+        "icon-size": 0.3,
+        "text-rotate": 0,
+        "icon-image": "pylon",
+        "icon-rotation-alignment": "map",
+        "icon-rotate": ["-", 90, ["/", ["get", "orientation"], 10]],
+        "icon-pitch-alignment": "map",
+        "text-size": 0
+      }
+    }
+  ],
+  "id": "jx5asadcp"
+}
