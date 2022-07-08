@@ -6,7 +6,7 @@
     "vml_gb": {
       "type": "vector",
       "tiles": [
-        "https://example.com/tiles/vector/osmm-networks-water/{z}/{x}/{y}.pbf"
+        "https://example.com/tiles/vector/os-vectormap-local/{z}/{x}/{y}.pbf"
       ],
       "minzoom": 9,
       "maxzoom": 14
