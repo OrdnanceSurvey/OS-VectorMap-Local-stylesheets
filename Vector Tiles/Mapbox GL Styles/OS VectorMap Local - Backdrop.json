@@ -12,7 +12,7 @@
       "maxzoom": 14
     }
   },
-  "sprite": "https://labs.os.uk/tiles/styles/vectormap-local-fullcolour/sprites",
+  "sprite": "https://labs.os.uk/tiles/styles/vectormap-local-backdrop/sprites",
   "glyphs": "https://labs.os.uk/tiles/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -28,9 +28,9 @@
       "filter": ["all", ["==", "feature_code", 15304]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 252, 1)",
+        "fill-color": "rgba(255, 255, 255, 1)",
         "fill-opacity": 1,
-        "fill-outline-color": "#646464"
+        "fill-outline-color": "rgba(145, 145, 145, 1)"
       }
     },
     {
@@ -53,7 +53,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15601]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(213, 244, 248, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(228, 244, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area inland water polygon",
@@ -62,7 +62,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15609]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(213, 244, 248, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(228, 244, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area sea polygon",
@@ -71,7 +71,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15608]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(213, 244, 248, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(228, 244, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area custom landform polygon",
@@ -80,7 +80,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15550]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(154, 154, 144, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(190, 190, 180, 1)", "fill-opacity": 1}
     },
     {
       "id": "area mud",
@@ -89,7 +89,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15538]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(245, 240, 225, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(245, 241, 233, 1)", "fill-opacity": 1}
     },
     {
       "id": "area sand",
@@ -98,7 +98,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15537]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 222, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 250, 235, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shingle and mud",
@@ -107,7 +107,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15536]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(245, 240, 225, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(245, 241, 233, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shingle and sand",
@@ -116,7 +116,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15535]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 222, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 250, 235, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shingle",
@@ -125,7 +125,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15534]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area boulders and mud fill",
@@ -135,7 +135,7 @@
       "filter": ["all", ["==", "feature_code", 15533]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(245, 240, 225, 1)",
+        "fill-color": "rgba(245, 241, 233, 1)",
         "fill-opacity": 1,
         "fill-antialias": false
       }
@@ -148,7 +148,7 @@
       "filter": ["all", ["==", "feature_code", 15533]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(245, 240, 225, 1)",
+        "fill-color": "rgba(245, 241, 233, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillBoulders",
         "fill-antialias": true
@@ -162,7 +162,7 @@
       "filter": ["all", ["==", "feature_code", 15532]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 222, 1)",
+        "fill-color": "rgba(250, 250, 235, 1)",
         "fill-opacity": 1,
         "fill-antialias": false
       }
@@ -175,7 +175,7 @@
       "filter": ["all", ["==", "feature_code", 15532]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 222, 1)",
+        "fill-color": "rgba(250, 250, 235, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillBoulders",
         "fill-antialias": true
@@ -189,7 +189,7 @@
       "filter": ["all", ["==", "feature_code", 15531]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-antialias": false
       }
@@ -202,7 +202,7 @@
       "filter": ["all", ["==", "feature_code", 15531]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillBoulders",
         "fill-antialias": true
@@ -216,7 +216,7 @@
       "filter": ["all", ["==", "feature_code", 15530]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-antialias": false
       }
@@ -229,7 +229,7 @@
       "filter": ["all", ["==", "feature_code", 15530]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillBoulders",
         "fill-antialias": true
@@ -242,7 +242,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15529]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area reeds fill",
@@ -251,7 +251,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15528]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(213, 244, 248, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(228, 244, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area reeds pattern",
@@ -261,7 +261,7 @@
       "filter": ["all", ["==", "feature_code", 15528]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(213, 244, 248, 1)",
+        "fill-color": "rgba(228, 244, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillReeds",
         "fill-antialias": true
@@ -274,7 +274,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15527]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area marsh and unimproved grass pattern",
@@ -284,7 +284,7 @@
       "filter": ["all", ["==", "feature_code", 15527]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillRoughGrasslandAndMarsh",
         "fill-antialias": true
@@ -297,7 +297,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15526]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area marsh patern",
@@ -307,7 +307,7 @@
       "filter": ["all", ["==", "feature_code", 15526]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillMarsh",
         "fill-antialias": true
@@ -320,7 +320,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15525]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 222, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 250, 235, 1)", "fill-opacity": 1}
     },
     {
       "id": "area unimproved grass and sand pattern",
@@ -330,7 +330,7 @@
       "filter": ["all", ["==", "feature_code", 15525]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 222, 1)",
+        "fill-color": "rgba(250, 250, 235, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillRoughGrassland",
         "fill-antialias": true
@@ -343,7 +343,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15524]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area unimproved grass and shingle pattern",
@@ -353,7 +353,7 @@
       "filter": ["all", ["==", "feature_code", 15524]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillRoughGrassland",
         "fill-antialias": true
@@ -366,7 +366,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15523]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area unimproved grass and boulders pattern",
@@ -376,7 +376,7 @@
       "filter": ["all", ["==", "feature_code", 15523]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillRoughGrasslandAndBoulders",
         "fill-antialias": true
@@ -389,7 +389,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15522]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area unimproved grass pattern",
@@ -399,7 +399,7 @@
       "filter": ["all", ["==", "feature_code", 15522]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillRoughGrassland",
         "fill-antialias": true
@@ -412,7 +412,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15521]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area heathland and marsh pattern",
@@ -422,7 +422,7 @@
       "filter": ["all", ["==", "feature_code", 15521]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillHeathAndMarsh",
         "fill-antialias": true
@@ -435,7 +435,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15520]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area heathland and boulders pattern",
@@ -445,7 +445,7 @@
       "filter": ["all", ["==", "feature_code", 15520]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillBouldersAndHeath",
         "fill-antialias": true
@@ -458,7 +458,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15519]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area heathland and unimproved grass and boulders pattern",
@@ -468,7 +468,7 @@
       "filter": ["all", ["==", "feature_code", 15519]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillBouldersAndHeathAndRoughGrassland",
         "fill-antialias": true
@@ -481,7 +481,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15518]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area heathland and unimproved grass pattern",
@@ -491,7 +491,7 @@
       "filter": ["all", ["==", "feature_code", 15518]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillRoughGrasslandAndHeath",
         "fill-antialias": true
@@ -504,7 +504,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15517]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area heathland pattern",
@@ -514,7 +514,7 @@
       "filter": ["all", ["==", "feature_code", 15517]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillHeath",
         "fill-antialias": true
@@ -527,7 +527,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15516]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub and boulders pattern",
@@ -537,7 +537,7 @@
       "filter": ["all", ["==", "feature_code", 15516]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillScrubAndBoulders",
         "fill-antialias": true
@@ -550,7 +550,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15515]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub and heathland and boulders pattern",
@@ -560,7 +560,7 @@
       "filter": ["all", ["==", "feature_code", 15515]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillBouldersAndHeathAndScrub",
         "fill-antialias": true
@@ -573,7 +573,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15514]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub and heathland and unimproved grass pattern",
@@ -583,7 +583,7 @@
       "filter": ["all", ["==", "feature_code", 15514]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillHeathAndScrubAndRoughGrassland",
         "fill-antialias": true
@@ -596,7 +596,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15513]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub and marsh and unimproved grass pattern",
@@ -606,7 +606,7 @@
       "filter": ["all", ["==", "feature_code", 15513]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillMarshAndRoughGrasslandAndScrub",
         "fill-antialias": true
@@ -619,7 +619,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15512]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub and marsh and heath pattern",
@@ -629,7 +629,7 @@
       "filter": ["all", ["==", "feature_code", 15512]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillMarshAndHeathAndScrub",
         "fill-antialias": true
@@ -642,7 +642,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15511]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub and marsh pattern",
@@ -652,7 +652,7 @@
       "filter": ["all", ["==", "feature_code", 15511]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillScrubAndMarsh",
         "fill-antialias": true
@@ -665,7 +665,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15510]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub and unimproved grass and boulders pattern",
@@ -675,7 +675,7 @@
       "filter": ["all", ["==", "feature_code", 15510]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillBouldersAndRoughGrasslandAndScrub",
         "fill-antialias": true
@@ -688,7 +688,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15509]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub and unimproved grass pattern",
@@ -698,7 +698,7 @@
       "filter": ["all", ["==", "feature_code", 15509]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillRoughGrasslandAndScrub",
         "fill-antialias": true
@@ -711,7 +711,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15508]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub and heathland pattern",
@@ -721,7 +721,7 @@
       "filter": ["all", ["==", "feature_code", 15508]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillHeathAndScrub",
         "fill-antialias": true
@@ -734,7 +734,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15507]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 1}
     },
     {
       "id": "area shrub pattern",
@@ -744,7 +744,7 @@
       "filter": ["all", ["==", "feature_code", 15507]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillScrub",
         "fill-antialias": true
@@ -757,7 +757,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15506]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(252, 252, 250, 1)", "fill-opacity": 0.3}
+      "paint": {"fill-color": "rgba(250, 249, 247, 1)", "fill-opacity": 0.3}
     },
     {
       "id": "area orchard pattern",
@@ -767,7 +767,7 @@
       "filter": ["all", ["==", "feature_code", 15506]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(252, 252, 250, 1)",
+        "fill-color": "rgba(250, 249, 247, 1)",
         "fill-opacity": 0.3,
         "fill-pattern": "fillOrchard",
         "fill-antialias": true
@@ -780,7 +780,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15505]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(209, 240, 206, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(227, 242, 226, 1)", "fill-opacity": 1}
     },
     {
       "id": "area broad leafed woodland and shrub pattern",
@@ -790,7 +790,7 @@
       "filter": ["all", ["==", "feature_code", 15505]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-color": "rgba(227, 242, 226, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillNonconiferousTreesAndScrub",
         "fill-antialias": true
@@ -803,7 +803,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15504]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(209, 240, 206, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(227, 242, 226, 1)", "fill-opacity": 1}
     },
     {
       "id": "area broad leafed woodland pattern",
@@ -813,7 +813,7 @@
       "filter": ["all", ["==", "feature_code", 15504]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-color": "rgba(227, 242, 226, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillNonconiferousTrees",
         "fill-antialias": true
@@ -826,7 +826,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15503]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(209, 240, 206, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(227, 242, 226, 1)", "fill-opacity": 1}
     },
     {
       "id": "area mixed woodland and shrub pattern",
@@ -836,7 +836,7 @@
       "filter": ["all", ["==", "feature_code", 15503]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-color": "rgba(227, 242, 226, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillScrubAndConiferousTreesAndNonconiferousTrees",
         "fill-antialias": true
@@ -850,7 +850,7 @@
       "filter": ["all", ["==", "feature_code", 15502]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-color": "rgba(227, 242, 226, 1)",
         "fill-opacity": 1,
         "fill-antialias": true
       }
@@ -863,7 +863,7 @@
       "filter": ["all", ["==", "feature_code", 15502]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-color": "rgba(227, 242, 226, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillNonconiferousTreesAndConiferousTrees",
         "fill-antialias": true
@@ -876,7 +876,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15501]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(209, 240, 206, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(227, 242, 226, 1)", "fill-opacity": 1}
     },
     {
       "id": "area coniferous woodland and shrub pattern",
@@ -886,7 +886,7 @@
       "filter": ["all", ["==", "feature_code", 15501]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-color": "rgba(227, 242, 226, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillConiferousTreesAndScrub",
         "fill-antialias": true
@@ -900,7 +900,7 @@
       "filter": ["all", ["==", "feature_code", 15500]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-color": "rgba(227, 242, 226, 1)",
         "fill-opacity": 1,
         "fill-antialias": true
       }
@@ -913,7 +913,7 @@
       "filter": ["all", ["==", "feature_code", 15500]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(209, 240, 206, 1)",
+        "fill-color": "rgba(227, 242, 226, 1)",
         "fill-opacity": 1,
         "fill-pattern": "fillConiferousTrees",
         "fill-antialias": true
@@ -944,7 +944,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15016]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(121, 159, 121, 1)", "fill-opacity": 0.1}
+      "paint": {"fill-color": "rgba(150, 171, 150, 1)", "fill-opacity": 0.1}
     },
     {
       "id": "area building polygon",
@@ -953,7 +953,7 @@
       "source-layer": "area",
       "filter": ["all", ["==", "feature_code", 15014]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(254, 222, 183, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(242, 230, 212, 1)", "fill-opacity": 1}
     },
     {
       "id": "line top of cliff",
@@ -1003,7 +1003,7 @@
       "filter": ["all", ["==", "feature_code", 15101]],
       "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
-        "line-color": "rgba(115, 103, 103, 1)",
+        "line-color": "rgba(145, 145, 145, 1)",
         "line-width": 1.6,
         "line-dasharray": [10, 7]
       }
@@ -1019,7 +1019,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(0, 169, 202, 1)", "line-width": 1}
+      "paint": {"line-color": "rgba(93, 198, 222, 1)", "line-width": 1}
     },
     {
       "id": "line mean high water",
@@ -1032,7 +1032,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(0, 169, 202, 1)", "line-width": 3.2}
+      "paint": {"line-color": "rgba(93, 198, 222, 1)", "line-width": 3.2}
     },
     {
       "id": "line water feature",
@@ -1045,7 +1045,7 @@
         "line-join": "round",
         "line-cap": "round"
       },
-      "paint": {"line-color": "rgba(0, 169, 202, 1)", "line-width": 1.6}
+      "paint": {"line-color": "rgba(93, 198, 222, 1)", "line-width": 1.6}
     },
     {
       "id": "line top of standard slopes",
@@ -1122,7 +1122,7 @@
       "filter": ["all", ["==", "feature_code", 15102]],
       "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
-        "line-color": "rgba(178, 184, 173, 1)",
+        "line-color": "rgba(206, 211, 199, 1)",
         "line-width": 1.2,
         "line-dasharray": [10, 5]
       }
@@ -1135,7 +1135,7 @@
       "filter": ["all", ["==", "feature_code", 15100]],
       "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
-        "line-color": "rgba(80, 80, 80, 1)",
+        "line-color": "rgba(128, 120, 120, 1)",
         "line-width": 1.4,
         "line-dasharray": [4, 3]
       }
@@ -1148,7 +1148,7 @@
       "filter": ["all", ["==", "feature_code", 15044]],
       "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
-        "line-color": "rgba(80, 80, 80, 1)",
+        "line-color": "rgba(150, 150, 150, 1)",
         "line-width": 1.4,
         "line-dasharray": [3, 2.5]
       }
@@ -1161,7 +1161,7 @@
       "filter": ["all", ["==", "feature_code", 15033]],
       "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
-        "line-color": "rgba(80, 80, 80, 1)",
+        "line-color": "rgba(150, 150, 150, 1)",
         "line-width": 1,
         "line-dasharray": [3, 2.5]
       }
@@ -1173,7 +1173,7 @@
       "source-layer": "line",
       "filter": ["all", ["==", "feature_code", 15032]],
       "layout": {"visibility": "visible", "line-join": "bevel"},
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1.4}
+      "paint": {"line-color": "rgba(150, 150, 150, 1)", "line-width": 1.4}
     },
     {
       "id": "line urban general line detail",
@@ -1182,7 +1182,7 @@
       "source-layer": "line",
       "filter": ["all", ["==", "feature_code", 15031]],
       "layout": {"visibility": "visible", "line-join": "bevel"},
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1}
+      "paint": {"line-color": "rgba(150, 150, 150, 1)", "line-width": 1}
     },
     {
       "id": "line glasshouse outline",
@@ -1191,7 +1191,7 @@
       "source-layer": "line",
       "filter": ["all", ["==", "feature_code", 15013]],
       "layout": {"visibility": "visible", "line-cap": "square"},
-      "paint": {"line-color": "rgba(121, 159, 121, 1)", "line-width": 1.6}
+      "paint": {"line-color": "rgba(150, 171, 150, 1)", "line-width": 1.6}
     },
     {
       "id": "line important building outline",
@@ -1200,7 +1200,7 @@
       "source-layer": "line",
       "filter": ["all", ["==", "feature_code", 15011]],
       "layout": {"visibility": "visible", "line-cap": "square"},
-      "paint": {"line-color": "rgba(72, 64, 80, 1)", "line-width": 2.2}
+      "paint": {"line-color": "rgba(143, 136, 127, 1)", "line-width": 2.2}
     },
     {
       "id": "line building outline",
@@ -1209,7 +1209,7 @@
       "source-layer": "line",
       "filter": ["all", ["==", "feature_code", 15010]],
       "layout": {"visibility": "visible", "line-cap": "square"},
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1.4}
+      "paint": {"line-color": "rgba(150, 150, 150, 1)", "line-width": 1.4}
     },
     {
       "id": "railcline railway tunnels",
@@ -1223,7 +1223,7 @@
         "line-cap": "square"
       },
       "paint": {
-        "line-color": "rgba(100, 100, 100, 1)",
+        "line-color": "rgba(145, 145, 145, 1)",
         "line-width": 1,
         "line-dasharray": [10, 7]
       }
@@ -1239,7 +1239,7 @@
         ["==", "in_tunnel", false]
       ],
       "layout": {"visibility": "visible"},
-      "paint": {"line-color": "rgba(100, 100, 100, 1)", "line-width": 3.2}
+      "paint": {"line-color": "rgba(145, 145, 145, 1)", "line-width": 3.2}
     },
     {
       "id": "railcline narrow gauge railway peck",
@@ -1253,7 +1253,7 @@
       ],
       "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
-        "line-color": "rgba(100, 100, 100, 1)",
+        "line-color": "rgba(145, 145, 145, 1)",
         "line-width": 10,
         "line-dasharray": [0.1, 2]
       }
@@ -1270,7 +1270,7 @@
       ],
       "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
-        "line-color": "rgba(100, 100, 100, 1)",
+        "line-color": "rgba(145, 145, 145, 1)",
         "line-width": 1.8,
         "line-dasharray": [1.8]
       }
@@ -1287,7 +1287,7 @@
       ],
       "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
-        "line-color": "rgba(100, 100, 100, 1)",
+        "line-color": "rgba(145, 145, 145, 1)",
         "line-width": 1.8,
         "line-dasharray": []
       }
@@ -1308,7 +1308,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing guided busway",
@@ -1326,7 +1326,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing local road shared use",
@@ -1344,7 +1344,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing restricted local access road",
@@ -1362,7 +1362,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 9}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 9}
     },
     {
       "id": "roadcline 0 casing local access road",
@@ -1380,7 +1380,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing secondary access road",
@@ -1398,7 +1398,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 9}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 9}
     },
     {
       "id": "roadcline 0 casing local road",
@@ -1416,7 +1416,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing minor road",
@@ -1434,7 +1434,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing b road primary",
@@ -1452,7 +1452,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing b road",
@@ -1470,7 +1470,7 @@
         "line-join": "round",
         "line-cap": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing a road trunk",
@@ -1488,7 +1488,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing a road",
@@ -1506,7 +1506,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing primary trunk road",
@@ -1524,7 +1524,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing primary road",
@@ -1542,7 +1542,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 casing motorway",
@@ -1560,7 +1560,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 0 fill enclosed traffic area",
@@ -1578,7 +1578,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 cl guided busway",
@@ -1596,7 +1596,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 1}
     },
     {
       "id": "roadcline 0 fill guided busway",
@@ -1614,7 +1614,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(238, 238, 238, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill local road shared use",
@@ -1632,7 +1632,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(238, 238, 238, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill restricted local access road",
@@ -1650,7 +1650,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 8}
     },
     {
       "id": "roadcline 0 fill local access road",
@@ -1668,7 +1668,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill secondary access road",
@@ -1686,7 +1686,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 8}
     },
     {
       "id": "roadcline 0 fill local road",
@@ -1704,7 +1704,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill minor road",
@@ -1722,7 +1722,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 243, 181, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(255, 244, 225, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill b road primary",
@@ -1740,7 +1740,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(253, 211, 177, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill b road",
@@ -1758,7 +1758,7 @@
         "line-join": "round",
         "line-cap": "round"
       },
-      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(253, 211, 177, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill a road trunk",
@@ -1776,7 +1776,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "#ff879e", "line-width": 12}
+      "paint": {"line-color": "rgba(255, 187, 210, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill a road",
@@ -1794,7 +1794,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 135, 158, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(255, 187, 210, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill primary trunk road",
@@ -1812,7 +1812,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(163, 210, 169, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill primary road",
@@ -1830,7 +1830,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(163, 210, 169, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 0 fill motorway",
@@ -1848,7 +1848,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(6, 177, 202, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(99, 200, 221, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 casing enclosed traffic area",
@@ -1866,7 +1866,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing guided busway",
@@ -1884,7 +1884,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing local road shared use",
@@ -1902,7 +1902,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing restricted local access road",
@@ -1920,7 +1920,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 9}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 9}
     },
     {
       "id": "roadcline 1 casing local access road",
@@ -1938,7 +1938,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing secondary access road",
@@ -1956,7 +1956,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 9}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 9}
     },
     {
       "id": "roadcline 1 casing local road",
@@ -1974,7 +1974,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing minor road",
@@ -1992,7 +1992,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing b road primary",
@@ -2010,7 +2010,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing b road",
@@ -2028,7 +2028,7 @@
         "line-join": "round",
         "line-cap": "butt"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing a road trunk",
@@ -2046,7 +2046,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing a road",
@@ -2064,7 +2064,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing primary trunk road",
@@ -2082,7 +2082,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing primary road",
@@ -2100,7 +2100,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 casing motorway",
@@ -2118,7 +2118,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 1 fill enclosed traffic area",
@@ -2136,7 +2136,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 cl guided busway",
@@ -2154,7 +2154,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 1}
     },
     {
       "id": "roadcline 1 fill guided busway",
@@ -2172,7 +2172,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(251, 251, 251, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill local road shared use",
@@ -2190,7 +2190,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(238, 238, 238, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill restricted local access road",
@@ -2208,7 +2208,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 8}
     },
     {
       "id": "roadcline 1 fill local access road",
@@ -2226,7 +2226,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill secondary access road",
@@ -2244,7 +2244,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 8}
     },
     {
       "id": "roadcline 1 fill local road",
@@ -2262,7 +2262,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill minor road",
@@ -2280,7 +2280,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 243, 181, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(255, 244, 225, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill b road primary",
@@ -2298,7 +2298,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(253, 211, 177, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill b road",
@@ -2316,7 +2316,7 @@
         "line-join": "round",
         "line-cap": "round"
       },
-      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(253, 211, 177, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill a road trunk",
@@ -2334,7 +2334,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "#ff879e", "line-width": 12}
+      "paint": {"line-color": "rgba(255, 187, 210, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill a road",
@@ -2352,7 +2352,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 135, 158, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(255, 187, 210, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill primary trunk road",
@@ -2370,7 +2370,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(163, 210, 169, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill primary road",
@@ -2388,7 +2388,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(163, 210, 169, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 1 fill motorway",
@@ -2406,7 +2406,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(6, 177, 202, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(99, 200, 221, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 casing enclosed traffic area",
@@ -2424,7 +2424,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing guided busway",
@@ -2442,7 +2442,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing local road shared use",
@@ -2460,7 +2460,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing restricted local access road",
@@ -2478,7 +2478,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 9}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 9}
     },
     {
       "id": "roadcline 2 casing local access road",
@@ -2496,7 +2496,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing secondary access road",
@@ -2514,7 +2514,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 9}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 9}
     },
     {
       "id": "roadcline 2 casing local road",
@@ -2532,7 +2532,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing minor road",
@@ -2550,7 +2550,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing b road primary",
@@ -2568,7 +2568,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing b road",
@@ -2586,7 +2586,7 @@
         "line-join": "round",
         "line-cap": "butt"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing a road trunk",
@@ -2604,7 +2604,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing a road",
@@ -2622,7 +2622,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing primary trunk road",
@@ -2640,7 +2640,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing primary road",
@@ -2658,7 +2658,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 casing motorway",
@@ -2676,7 +2676,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 2 fill enclosed traffic area",
@@ -2694,7 +2694,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 cl guided busway",
@@ -2712,7 +2712,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 1}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 1}
     },
     {
       "id": "roadcline 2 fill guided busway",
@@ -2730,7 +2730,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(238, 238, 238, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill local road shared use",
@@ -2748,7 +2748,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(234, 234, 234, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(238, 238, 238, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill restricted local access road",
@@ -2766,7 +2766,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 8}
     },
     {
       "id": "roadcline 2 fill local access road",
@@ -2784,7 +2784,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill secondary access road",
@@ -2802,7 +2802,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 8}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 8}
     },
     {
       "id": "roadcline 2 fill local road",
@@ -2820,7 +2820,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 255, 255, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(252, 252, 252, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill minor road",
@@ -2838,7 +2838,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 243, 181, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(255, 244, 225, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill b road primary",
@@ -2856,7 +2856,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(253, 211, 177, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill b road",
@@ -2874,7 +2874,7 @@
         "line-join": "round",
         "line-cap": "round"
       },
-      "paint": {"line-color": "rgba(255, 192, 115, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(253, 211, 177, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill a road trunk",
@@ -2892,7 +2892,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "#ff879e", "line-width": 12}
+      "paint": {"line-color": "rgba(255, 187, 210, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill a road",
@@ -2910,7 +2910,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(255, 135, 158, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(255, 187, 210, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill primary trunk road",
@@ -2928,7 +2928,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(163, 210, 169, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill primary road",
@@ -2946,7 +2946,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(55, 195, 91, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(163, 210, 169, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 2 fill motorway",
@@ -2964,7 +2964,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(6, 177, 202, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(99, 200, 221, 1)", "line-width": 12}
     },
     {
       "id": "roadcline 3 casing motorway",
@@ -2982,7 +2982,7 @@
         "line-cap": "butt",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(80, 80, 80, 1)", "line-width": 14}
+      "paint": {"line-color": "rgba(96, 96, 96, 1)", "line-width": 14}
     },
     {
       "id": "roadcline 3 fill motorway",
@@ -3000,7 +3000,7 @@
         "line-cap": "round",
         "line-join": "round"
       },
-      "paint": {"line-color": "rgba(6, 177, 202, 1)", "line-width": 12}
+      "paint": {"line-color": "rgba(99, 200, 221, 1)", "line-width": 12}
     },
     {
       "id": "roadcline road tunnels",
@@ -3009,7 +3009,7 @@
       "source-layer": "road_cline",
       "filter": ["all", ["==", "in_tunnel", true]],
       "paint": {
-        "line-color": "rgba(80, 80, 80, 1)",
+        "line-color": "rgba(96, 96, 96, 1)",
         "line-width": 1,
         "line-dasharray": [2, 2]
       }
@@ -3030,12 +3030,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(26, 26, 26, 1)",
-        "icon-halo-color": "rgba(252, 252, 250, 1)",
+        "text-color": "rgba(85, 85, 85, 1)",
+        "icon-halo-color": "rgba(250, 249, 247, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3058,12 +3058,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(157, 113, 51, 1)",
+        "text-color": "rgba(164, 143, 122, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3091,12 +3091,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(224, 148, 94, 1)",
+        "text-color": "rgba(164, 143, 122, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3124,12 +3124,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(224, 148, 94, 1)",
+        "text-color": "rgba(164, 143, 122, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3152,12 +3152,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(113, 113, 113, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3180,12 +3180,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(113, 113, 113, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3213,12 +3213,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(113, 113, 113, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3248,12 +3248,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(0, 154, 207, 1)",
+        "text-color": "rgba(37, 173, 201, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3276,12 +3276,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(113, 113, 113, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3305,12 +3305,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(72, 64, 60, 1)",
+        "text-color": "rgba(143, 136, 127, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3363,12 +3363,12 @@
         "text-size": ["/", ["get", "text_rendering_height"], 1.1]
       },
       "paint": {
-        "text-color": "rgba(0, 0, 0, 1)",
+        "text-color": "rgba(113, 113, 113, 1)",
         "icon-halo-color": "rgba(252, 252, 250, 1)",
         "icon-opacity": 0,
         "icon-halo-width": 0.12,
         "icon-color": "rgba(249, 7, 7, 1)",
-        "text-halo-color": "rgba(252, 252, 250, 1)",
+        "text-halo-color": "rgba(250, 249, 247, 1)",
         "text-halo-width": 2,
         "text-opacity": 1,
         "text-halo-blur": 0.7,
@@ -3407,7 +3407,7 @@
       "source": "vml_gb",
       "source-layer": "vector_map_point",
       "filter": ["all", ["==", "feature_code", 15606]],
-      "paint": {"circle-color": "rgba(0, 154, 207, 1)", "circle-radius": 2}
+      "paint": {"circle-color": "rgba(37, 173, 201, 1)", "circle-radius": 2}
     },
     {
       "id": "vectormappoint triangulation station",
@@ -3427,7 +3427,7 @@
       "source": "vml_gb",
       "source-layer": "vector_map_point",
       "filter": ["all", ["==", "feature_code", 15406]],
-      "paint": {"circle-color": "rgba(157, 113, 51, 1)", "circle-radius": 2}
+      "paint": {"circle-color": "rgba(164, 143, 122, 1)", "circle-radius": 2}
     },
     {
       "id": "vectormappoint spot height position",
@@ -3435,7 +3435,7 @@
       "source": "vml_gb",
       "source-layer": "vector_map_point",
       "filter": ["all", ["==", "feature_code", 15405]],
-      "paint": {"circle-color": "rgba(157, 113, 51, 1)", "circle-radius": 2}
+      "paint": {"circle-color": "rgba(164, 143, 122, 1)", "circle-radius": 2}
     },
     {
       "id": "vectormappoint boundary point",
@@ -3445,7 +3445,7 @@
       "filter": ["all", ["==", "feature_code", 15211]],
       "layout": {"visibility": "none"},
       "paint": {
-        "circle-color": "rgba(255, 255, 255, 1)",
+        "circle-color": "rgba(113, 113, 113, 1)",
         "circle-radius": 2,
         "circle-stroke-width": 1
       }
@@ -3469,7 +3469,7 @@
       "source": "vml_gb",
       "source-layer": "vector_map_point",
       "filter": ["all", ["==", "feature_code", 15110]],
-      "paint": {"circle-radius": 2}
+      "paint": {"circle-radius": 2, "circle-color": "rgba(113, 113, 113, 1)"}
     },
     {
       "id": "vectormappoint pylon",
