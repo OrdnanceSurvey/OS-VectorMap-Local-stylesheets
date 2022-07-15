@@ -6,14 +6,14 @@
     "vml_gb": {
       "type": "vector",
       "tiles": [
-        "https://labs.os.uk/tiles/vector/vectormap-local/{z}/{x}/{y}.pbf"
+        "https://example.com/tiles/vector/os-vectormap-local/{z}/{x}/{y}.pbf"
       ],
       "minzoom": 9,
       "maxzoom": 14
     }
   },
-  "sprite": "https://labs.os.uk/tiles/styles/vectormap-local-backdrop/sprites",
-  "glyphs": "https://labs.os.uk/tiles/fonts/{fontstack}/{range}.pbf",
+  "sprite": "insert your hosted sprite location url here",
+  "glyphs": "insert your hosted glyph location url here",
   "layers": [
     {
       "id": "background",
