@@ -1,6 +1,6 @@
 # OS VectorMap Local Backdrop style
 
-These are SLD files for OS VectorMap Local in GZ/GML format for use in GeoServer.
+These are **SLD** files for OS VectorMap Local in **GZ/GML** format for use in **GeoServer**.
 
 *They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
@@ -34,11 +34,9 @@ Although SLD is an open OGC standard, these SLDs do contain some extended code u
 
 ## Additional information
 
-[More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 [More information about OS VectorMap Local](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-local.html)
-
-[More information about cartographic design at Ordnance Survey](https://www.ordnancesurvey.co.uk/resources/carto-design/)
 
 ## Licence
 
