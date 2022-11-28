@@ -1,6 +1,6 @@
 # OS VectorMap Local Full Colour style
 
-These are LYR files for OS VectorMap Local in Geopackage format for use in ESRI ArcGIS.
+These are **LYR** files for OS VectorMap Local in **Geopackage** format for use in **ESRI ArcGIS**.
 
 ## Quick start guide
 
@@ -46,11 +46,9 @@ These Layer Files are compatible with ESRI ArcGIS 9.3 and later
 
 ## Additional information
 
-[More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 [More information about OS VectorMap Local](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-local.html)
-
-[More information about cartographic design at Ordnance Survey](https://www.ordnancesurvey.co.uk/resources/carto-design/)
 
 ## Licence
 
